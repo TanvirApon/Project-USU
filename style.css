@@ -1,8 +1,214 @@
 *{
     box-sizing: border-box;
+    font-family: 'LucidaGrande';
+    src: url('fonts/LucidaGrandeBold.ttf');
 }
              
 body {
     margin: 0;
 }
+
+
+/* mobile view starts from here */
+
+@media (max-width:767px) {
+
+
+ /* usu-card starts from here    */
+.usu-card-web-icons .container .row .col-6 .desktop{
+
+    display: none;
+
+
+}
+
+/* usu-card ends here */
+
+
+/* student cards start from here */
+.student-card .icon{
+
+    bottom: 25px;
+    right: 20px;
+    
+} 
+
+.student-card .desktop_int{
+
+    display: none;
+}
+
+/* student card ends here */
+
+
+
+/* unilive-card starts from here */
+.unilive-card .icon{
+
+    bottom: 25px;
+    right: 20px;
+    
+} 
+
+.unilive-card .desktop_uni{
+
+    display: none;
+}
+
+/* unilive-card ends here */
+
+
+/* add stars from here */
+
+ .add_mobile{
+
+    display: none;
+}
+
+.add img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* add ends here */
+
+
+    
+}
+/* mobile view ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ipad view  starts from here */
+@media (min-width: 768px) and (max-width: 1023px){
+
+
+    .usu-card-web-icons .container .row .col-6 .mobile{
+       
+        display: none;
+    
+    }
+
+    .student-card .mobile_int{
+
+        display: none;
+    }
+
+    .student-card .icon{
+
+        bottom: 25px;
+        right: 20px;
+        
+    } 
+
+
+
+    /* * unilive-card starts from here */ 
+    .unilive-card .icon{
+
+        bottom: 25px;
+        right: 20px;
+        
+    } 
+
+    .unilive-card .mobile_uni{
+
+        display: none;
+    }
+
+    /* unilive-card ends here */
+
+    
+    
+
+}
+
+/* ipad view ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* desktop view starts from here */
+
+@media (min-width: 1024px) {
+
+
+    .usu-card-web-icons .container .row .col-6 .mobile{
+        display: none;
+    
+    }
+
+    .student-card .mobile_int{
+
+        display: none;
+    }
+
+
+    .student-card .icon{
+
+        bottom: 25px;
+        right: 20px;
+        
+    } 
+
+    /* unilive-card starts from here */
+    .unilive-card .icon{
+
+    bottom: 25px;
+    right: 20px;
+    
+    } 
+
+   .unilive-card .desktop_uni{
+
+    display: none;
+    }
+
+     /* unilive-card ends here */
+
+
+
+
+
+}
+
+/* desktop view ends here */
+
 
