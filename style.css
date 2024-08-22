@@ -24,8 +24,7 @@ body {
     
         min-height: 100px;
     }
-    
-    
+
 
 
  /* usu-card starts from here    */
@@ -74,23 +73,27 @@ body {
 
 /* add stars from here */
 
-.add{
-    width: 100%;
-}
-
- .add_desktop{
+.desk_img{
 
     display: none;
 }
 
-.add_img{
 
-    width:100%;
- 
-}
 
 
 /* add ends here */
+
+
+
+/* video code starts from here */
+
+.desk_video{
+
+    display: none;
+}
+
+
+/* video card ends here */
 
 
     
@@ -128,6 +131,8 @@ body {
     
         min-height: 135px;
     }
+
+    
     
 
     .usu-card-web-icons .container .row .col-6 .mobile{
@@ -166,7 +171,16 @@ body {
     /* unilive-card ends here */
 
     
-    
+    .mob_img{
+
+        display: none;
+    }
+
+
+    .mob_video{
+
+        display: none;
+    }
 
 }
 
@@ -204,9 +218,10 @@ body {
     
     .card_title{
     
-        min-height: 155px;
+        min-height: 170px;
     }
 
+    
 
     .usu-card-web-icons .container .row .col-6 .mobile{
         display: none;
@@ -234,15 +249,28 @@ body {
     
     } 
 
-   .unilive-card .desktop_uni{
+   .unilive-card .mobile_uni{
 
     display: none;
     }
 
      /* unilive-card ends here */
 
+    
+     .mob_img{
+
+        display: none;
+    }
+
+    .desk_img {
+        min-width:100%;
+    }
 
 
+    .mob_video{
+
+        display: none;
+    }
 
 
 }
