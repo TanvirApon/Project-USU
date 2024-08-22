@@ -96,6 +96,36 @@ body {
 /* video card ends here */
 
 
+.desktop_volun{
+
+    display: none;
+}
+
+.volunteer-board .head-bttn{
+
+    top: 35px;
+    left: 100px;
+    
+} 
+
+.volunteer-board .head-bttn .header{
+
+    font-size: 30px;
+    text-align: center;
+    width: 50%;
+    
+} 
+
+
+.volunteer-board .buttn{
+
+    background-color: black;
+    padding: 5px 30px;
+    border: none;
+
+}
+
+
     
 }
 /* mobile view ends here */
@@ -181,6 +211,35 @@ body {
 
         display: none;
     }
+
+    
+    .mobile_volun{
+
+        display: none;
+    }
+
+    .volunteer-board .header{
+
+        top: 56px;
+        left: 80px;
+        font-size: 30px;
+        width: 240px;
+        text-align: center;
+    
+    } 
+    
+    .volunteer-board .buttn{
+    
+        background-color: black;
+        bottom: 70px;
+        left: 100px;
+        padding: 5px 30px;
+        border: none;
+    
+    }
+    
+
+
 
 }
 
@@ -271,6 +330,32 @@ body {
 
         display: none;
     }
+
+
+    .mobile_volun{
+
+        display: none;
+    }
+
+    .volunteer-board .head-bttn{
+
+        top: 0px;
+        left: 0px;
+      
+        
+    
+    } 
+    
+    /* .volunteer-board .buttn{
+    
+        background-color: black;
+        bottom: 70px;
+        left: 100px;
+        padding: 5px 30px;
+        border: none;
+    
+    } */
+    
 
 
 }
