@@ -104,9 +104,10 @@ body {
  .volunteer-board .head-btn{
 
     
-    top: 30px;
-    left: 0px;
+    bottom: 55px;
+    left: 65px;
     text-align: center;
+    width: 280px;
 } 
 
 .volunteer-board .vol_img{
@@ -120,15 +121,13 @@ body {
 
     font-size: 34px;
     text-align: center;
-    min-width: 100%;
-   
     
 } 
 
 .volunteer-board .bttn .buttn{
 
     background-color: black;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border: none;
 
 } 
@@ -142,10 +141,13 @@ body {
 
 .mobile_member .head-btn{
 
-    
-    top: 30px;
-    left: 0px;
+     
     text-align: center;
+    bottom: 15%;
+    left: 15%;
+    width: 70%;
+
+
 } 
 
 .mobile_member .vol_img{
@@ -158,16 +160,13 @@ body {
 .mobile_member .head-btn .header{
 
     font-size: 34px;
-    text-align: center;
-    min-width: 100%;
-   
-    
+    text-align: center;  
 } 
 
 .mobile_member .bttn .buttn{
 
     background-color: black;
-    padding: 5px 30px;
+    padding: 10px 30px;
     border: none;
 
 }
@@ -214,11 +213,17 @@ body {
     color: white;
 }
 
+.footer_mobile .other_shortcuts .option{
+
+    font-size: 14px;
+}
+
 #mobile_carousel .inside{
 
-top:30%;
-left:18%;
-text-align: center;
+    text-align: center;
+    bottom: 150px;
+    left: 30px;
+    width: 330px;
 
 
 }
@@ -247,23 +252,32 @@ text-align: center;
     border-radius: 50%;
     background-color: #ffffff;
 
-    
 }
 
 
 #desktop_carousel .inside{
 
-    top:30%;
-    left:18%;
     text-align: center;
+    bottom: 120px;
+    left: 50px;
+    width: 300px;
     
     
 }
     
 #desktop_carousel .inside .header{
     
-    font-size: 30px;
+    font-size: 43px;
     font-weight: bold;
+        
+}
+
+#desktop_carousel .inside .btn .buttn{
+    
+    background-color: #FFD700;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
         
 }
     
@@ -385,10 +399,11 @@ text-align: center;
 
     .volunteer-board .head-btn{
 
-    
-        top: 20px;
-        left: 0px;
         text-align: center;
+        bottom: 50px;
+        left: 45px;
+        width: 280px;
+    
     } 
     
     .volunteer-board .vol_img{
@@ -402,15 +417,15 @@ text-align: center;
     
         font-size: 34px;
         text-align: center;
-        min-width: 100%;
-       
+    
+  
         
     } 
     
     .volunteer-board .bttn .buttn{
     
         background-color: black;
-        padding: 5px 30px;
+        padding: 10px 30px;
         border: none;
     
     } 
@@ -422,10 +437,11 @@ text-align: center;
 
     .desktop_member .head-btn{
 
-    
-        top: 20px;
-        left: 0px;
         text-align: center;
+        bottom: 15%;
+        left: 15%;
+        width: 70%;
+    
     } 
     
     .desktop_member .vol_img{
@@ -439,15 +455,14 @@ text-align: center;
     
         font-size: 34px;
         text-align: center;
-        min-width: 100%;
-       
+ 
         
     } 
     
     .desktop_member .bttn .buttn{
     
         background-color: black;
-        padding: 5px 30px;
+        padding: 10px 30px;
         border: none;
     
     } 
@@ -692,10 +707,11 @@ text-align: center;
     .volunteer-board .head-btn{
 
     
-        top: 120px;
-        left: 50px;
         text-align: center;
-        width: 450px;
+        width: 455px;
+        bottom: 132px;
+        left: 50px;
+    
     } 
     
     .volunteer-board .vol_img{
@@ -717,7 +733,7 @@ text-align: center;
     .volunteer-board .bttn .buttn{
     
         background-color: black;
-        padding: 5px 30px;
+        padding: 10px 30px;
         border: none;
         font-size: 20px;
     
@@ -736,11 +752,11 @@ text-align: center;
  
      .desktop_member .head-btn{
  
-     
-         top: 120px;
-         left: 50px;
          text-align: center;
-         width: 450px;
+         width: 400px;
+         bottom: 100px;
+         left: 75px;
+     
      } 
      
      .desktop_member .vol_img{
@@ -762,7 +778,7 @@ text-align: center;
      .desktop_member .bttn .buttn{
      
          background-color: black;
-         padding: 5px 30px;
+         padding: 10px 30px;
          border: none;
          font-size: 20px;
      
