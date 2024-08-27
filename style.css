@@ -15,6 +15,44 @@ body {
 
 @media (max-width:767px) {
 
+    /* navbar code starts from here */
+  .nav_mobile {
+   
+    background-color: #FFD700;
+   
+
+
+
+  }
+
+
+  .nav_mobile .logo{
+
+     width: 145px;
+
+
+  }
+
+  .nav_mobile .icon{
+
+    color:black; 
+    font-size:30px;
+
+
+ }
+
+  .nav_mobile .navbar-collapse {
+    background-color: black;
+    width: 100%;
+  }
+
+
+
+  /* navbar code ends here */
+
+
+
+
     .card_image{
 
         width: 100%;
@@ -103,11 +141,10 @@ body {
 
  .volunteer-board .head-btn{
 
-    
-    bottom: 55px;
-    left: 65px;
     text-align: center;
-    width: 280px;
+    width: 70%;
+    bottom: 26%;
+    left: 16%;
 } 
 
 .volunteer-board .vol_img{
@@ -119,7 +156,7 @@ body {
 
 .volunteer-board .head-btn .header{
 
-    font-size: 34px;
+    font-size: 28px; 
     text-align: center;
     
 } 
@@ -208,6 +245,11 @@ body {
     color: white;
 }
 
+.footer_mobile .social-media i{
+
+    font-size: 30px;
+}
+
 .footer_mobile .other_shortcuts{
 
     color: white;
@@ -221,18 +263,25 @@ body {
 #mobile_carousel .inside{
 
     text-align: center;
-    bottom: 150px;
-    left: 30px;
-    width: 330px;
-
+    width: 90%;
+    bottom: 35%;
+    left: 5%;
 
 }
 
 #mobile_carousel .inside .header{
 
-    font-size: 30px;
+    font-size: 29px;
     font-weight: bold;
     
+}
+#mobile_carousel .inside .btn .buttn{
+    
+    background-color: #FFD700;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+        
 }
 
 #mobile_carousel .desktop_usyd{
@@ -258,16 +307,16 @@ body {
 #desktop_carousel .inside{
 
     text-align: center;
-    bottom: 120px;
-    left: 50px;
-    width: 300px;
+    width: 90%;
+    left: 7%;
+    bottom: 25%;
     
     
 }
     
 #desktop_carousel .inside .header{
     
-    font-size: 43px;
+    font-size: 40px;
     font-weight: bold;
         
 }
@@ -275,9 +324,10 @@ body {
 #desktop_carousel .inside .btn .buttn{
     
     background-color: #FFD700;
-    padding: 10px 30px;
+    padding: 10px 12px;
     border: none;
     font-size: 20px;
+    width: 206px;
         
 }
     
@@ -400,9 +450,9 @@ body {
     .volunteer-board .head-btn{
 
         text-align: center;
-        bottom: 50px;
-        left: 45px;
-        width: 280px;
+        width: 80%;
+        left: 10%;
+        bottom: 20%;
     
     } 
     
@@ -440,7 +490,7 @@ body {
         text-align: center;
         bottom: 15%;
         left: 15%;
-        width: 70%;
+        width: 80%;
     
     } 
     
@@ -504,6 +554,11 @@ body {
     
         color: white;
     }
+
+    .footer_mobile .social-media i{
+
+        font-size: 24px;
+    }
     
     .footer_desktop .other_shortcuts{
     
@@ -513,19 +568,30 @@ body {
 
     #mobile_carousel .inside{
 
-        top:30%;
-        left:18%;
+        top: 40%;
+        left: 10%;
         text-align: center;
+        width: 80%;
         
         
     }
         
     #mobile_carousel .inside .header{
         
-        font-size: 30px;
+        font-size: 45px;
         font-weight: bold;
             
     }
+
+    #mobile_carousel .inside .btn .buttn{
+    
+        background-color: #FFD700;
+        padding: 10px 20px;
+        border: none;
+        font-size: 18px;
+            
+    }
+    
         
     #mobile_carousel .mobile_usyd{
         
@@ -551,17 +617,27 @@ body {
 
     #desktop_carousel .inside{
 
-        top:30%;
-        left:18%;
         text-align: center;
-        
-        
+        width: 80%;
+        bottom: 25%;
+        left: 12%;
+     
     }
         
     #desktop_carousel .inside .header{
         
         font-size: 30px;
         font-weight: bold;
+            
+    }
+
+    #desktop_carousel .inside .btn .buttn{
+    
+        background-color: #FFD700;
+        padding: 10px 12px;
+        border: none;
+        font-size: 20px;
+        width: 206px;
             
     }
         
@@ -821,6 +897,11 @@ body {
     
         color: white;
     }
+
+    .footer_mobile .social-media i{
+
+        font-size: 24px;
+    }
     
     .footer_desktop .other_shortcuts{
     
@@ -830,16 +911,33 @@ body {
 
     #mobile_carousel .inside{
 
-        top:30%;
-        left:18%;
+        left: 16%;
         text-align: center;
+        width: 70%;
+        bottom: 38%;
         
         
     }
+
+    #mobile_carousel .inside .btn .buttn{
+    
+        background-color: #FFD700;
+        padding: 10px 50px;
+        border: none;
+        font-size: 25px;
+            
+    }
+
+    #mobile_carousel img{
+
+       min-width: 100%;
+
+    }
+    
         
     #mobile_carousel .inside .header{
         
-        font-size: 30px;
+        font-size: 70px;
         font-weight: bold;
             
     }
@@ -870,49 +968,65 @@ body {
             
     }
 
+
+    #desktop_carousel img{
+
+        min-width: 100%;
+    }
     
     #desktop_carousel .inside{
 
-        top:30%;
-        left:18%;
+        left: 20%;
         text-align: center;
-        
+        width: 60%;
+        bottom: 35%;
         
     }
         
     #desktop_carousel .inside .header{
         
-        font-size: 30px;
+        font-size: 50px;
         font-weight: bold;
+            
+    }
+
+    #desktop_carousel .inside .btn .buttn{
+    
+        background-color: #FFD700;
+        padding: 10px 12px;
+        border: none;
+        font-size: 20px;
+        width: 206px;
             
     }
         
     #desktop_carousel .mobile_web{
         
-            display: none;
-        }
+        display: none;
+    }
         
-        #desktop_carousel .mobile_members{
+    #desktop_carousel .mobile_members{
         
-            display: none;
-        }
+        display: none;
+    }
 
   
         
-        #desktop_carousel .mobile_appic{
+    #desktop_carousel .mobile_appic{
         
-            display: none;
-        }
+        display: none;
+    }
         
         
-        .carousel-indicators li {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: #ffffff;
+    .carousel-indicators li {
+        
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #ffffff;
         
             
-        }
+    }
     
 
 
