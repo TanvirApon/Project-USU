@@ -16,11 +16,19 @@ body {
 @media (max-width:767px) {
 
     /* navbar code starts from here */
+    
+
   .nav_mobile {
    
     background-color: #FFD700;
     
   }
+
+  .nav_desktop{
+
+    display: none !important;
+}
+
   
   .nav_mobile #close{
     display: none;
@@ -31,12 +39,12 @@ body {
     height: 0%;
     width: 100%;
     position: absolute;
-    top: 78px;
+    top: 76px;
     left: 0;
     background-color: black;
     overflow-y:scroll;
     transition: 0.5s;
-    z-index: 1;
+    z-index: 16;
   }
 
 
@@ -69,7 +77,8 @@ body {
    .myNav .option a{
  
     text-decoration: none;
-    color: white;
+    color: #dbdada;
+    font-size: 22px;
 
    }
 
@@ -425,6 +434,116 @@ body {
 /* ipad view  starts from here */
 @media (min-width: 768px) and (max-width: 1023px){
 
+
+     /* navbar code starts from here */
+
+.nav_mobile{
+
+    display: none;
+}
+  .nav_desktop {
+   
+    background-color: #FFD700;
+    
+  }
+
+  .nav_desktop .icon{
+ 
+    background-color: #FFD700;
+    color: black;
+
+  }
+  
+  .nav_desktop #deskclose{
+    display: none;
+  }
+
+
+  .nav_desktop #basic-addon1{
+
+    background: #FFD700;
+    color: black;
+    font-size: 22px;
+    border: 2px white;
+
+  }
+  .nav_desktop .search-input{
+    background-color: #FFD700;
+    border: none;
+  }
+
+
+  .overlay {
+    height: 0%;
+    min-width: 100%;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    background-color: black;
+    overflow-y:scroll;
+    transition: 0.5s;
+    z-index: 16;
+  }
+
+
+
+
+
+  .nav_desktop .logo{
+
+     width: 145px;
+
+
+  }
+
+  .nav_desktop .icon{
+
+    color:black; 
+    font-size:30px;
+
+
+ }
+
+  .myNav .search {
+    
+    background-color: #FFD700;
+    color: black;
+   
+  }
+
+ 
+   .deskmyNav .option a{
+ 
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+   }
+
+   .deskmyNav  .hr_white{
+
+    background-color: white;
+    width: 210px;
+    height: 1px;
+    margin-left: 0px;
+
+}
+
+.deskmyNav .social-media{
+
+    color: white;
+}
+
+.deskmyNav .social-media i{
+
+    font-size: 20px;
+}
+
+  /* navbar code ends here */
+
+
+
+
     .card_image{
 
         width: 100%;
@@ -748,6 +867,112 @@ body {
 /* desktop view starts from here */
 
 @media (min-width: 1024px) {
+
+      /* navbar code starts from here */
+
+.nav_mobile{
+
+    display: none;
+}
+  .nav_desktop {
+   
+    background-color: #FFD700;
+    
+  }
+
+  .nav_desktop .icon{
+ 
+    background-color: #FFD700;
+    color: black;
+
+  }
+  
+  .nav_desktop #deskclose{
+    display: none;
+  }
+
+
+  .nav_desktop #basic-addon1{
+
+    background: #FFD700;
+    color: black;
+    font-size: 22px;
+    border: 2px white;
+
+  }
+  .nav_desktop .search-input{
+    background-color: #FFD700;
+    border: none;
+  }
+
+
+  .overlay {
+    height: 0%;
+    min-width: 100%;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    background-color: black;
+    overflow-y:scroll;
+    transition: 0.5s;
+    z-index: 16;
+  }
+
+
+
+
+
+  .nav_desktop .logo{
+
+     width: 145px;
+
+
+  }
+
+  .nav_desktop .icon{
+
+    color:black; 
+    font-size:30px;
+
+
+ }
+
+  .myNav .search {
+    
+    background-color: #FFD700;
+    color: black;
+   
+  }
+
+ 
+   .deskmyNav .option a{
+ 
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+   }
+
+   .deskmyNav  .hr_white{
+
+    background-color: white;
+    width: 215px;
+    height: 1px;
+    margin-left: 0px;
+
+}
+
+.deskmyNav .social-media{
+
+    color: white;
+}
+
+.deskmyNav .social-media i{
+
+    font-size: 20px;
+}
+
+  /* navbar code ends here */
 
 
     .card_image{
