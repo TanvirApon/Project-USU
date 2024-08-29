@@ -19,11 +19,28 @@ body {
   .nav_mobile {
    
     background-color: #FFD700;
-   
-
-
-
+    
   }
+  
+  .nav_mobile #close{
+    display: none;
+  }
+
+
+  .overlay {
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    top: 78px;
+    left: 0;
+    background-color: black;
+    overflow-y:scroll;
+    transition: 0.5s;
+    z-index: 1;
+  }
+
+
+
 
 
   .nav_mobile .logo{
@@ -41,12 +58,39 @@ body {
 
  }
 
-  .nav_mobile .navbar-collapse {
-    background-color: black;
-    width: 100%;
+  .myNav .search {
+    
+    background-color: #FFD700;
+    color: black;
+   
   }
 
+ 
+   .myNav .option a{
+ 
+    text-decoration: none;
+    color: white;
 
+   }
+
+   .myNav .col-12 .hr_white{
+
+    background-color: white;
+    width: 315px;
+    height: 1px;
+    margin-left: 0px;
+
+}
+
+.myNav .col-12 .social-media{
+
+    color: white;
+}
+
+.myNav .col-12 .social-media i{
+
+    font-size: 30px;
+}
 
   /* navbar code ends here */
 

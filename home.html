@@ -19,32 +19,291 @@
 <body>
 
 
-  <!-- navbar starts from here -->
-  
-  <nav class="navbar navbar-expand-md navbar-dark nav_mobile">
-    <img class="img-fluid logo p-3" src="images/usu_logo.png" alt="Logo">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon">   
-        <i class="fas fa-bars icon"></i>
-    </span>
-    
-    </button>
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+ <!-- navbar starts from here -->
+<nav class="navbar navbar-expand-md nav_mobile position-relative">
+  <a href=""><img class="img-fluid logo p-3" src="images/usu_logo.png" alt="Logo"></a>
+    <span class="icon d-flex ">   
+    <i class="fas fa-bars icon" id="open" onclick="openNav()"></i>
+    <i class="fas fa-times" id="close" onclick="closeNav()"></i>
+  </span>
+</nav>
 
-  <!-- navbar ends here -->
+<div class="myNav overlay container" id="myNav">
+
+  <form class="form-inline p-4">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search" aria-label="Username" aria-describedby="basic-addon1">
+      <div class="input-group-prepend">
+        <span class="input-group-text search" id="basic-addon1">
+
+          <i class="fas fa-search icon"></i>
+        </span>
+      </div>
+    
+    </div>
+  </form>
+
+  <div class="row position-absolute p-4">
+    
+    <div class="col-6 p-2">
+       
+      <h4 class="text-white">About Us</h4>
+       
+      <div class="option">
+       <a href="">Our Student Board</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Sustainability</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Jobs & Opportunities</a>
+      </div>
+
+      <div class="option"> 
+       <a href="">Alumni & Friends</a>
+      </div> 
+       
+       
+      <div class="option">
+       <a href="">Contact Us</a>
+      </div>
+
+
+    </div>
+     <!-- col ends here -->
+
+
+    <div class="col-6 p-2">
+       
+      <h4 class="text-white">Membership</h4>
+       
+      <div class="option">
+       <a href="">Join / Renew</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Rewards Offers</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Membership</a>
+      </div>
+
+      <div class="option"> 
+       <a href="">Help</a>
+      </div> 
+       
+       
+      <div class="option">
+       <a href="">USU App</a>
+      </div>
+
+
+    </div>
+     <!-- col ends here -->
+
+
+    <div class="col-6 p-2">
+       
+      <h4 class="text-white">What's On</h4>
+       
+      <div class="option">
+       <a href="">Event Calendar</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Key Events</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Manning Bar</a>
+      </div>
+
+      <div class="option"> 
+       <a href="">Hermann's Bar</a>
+      </div> 
+       
+       
+      <div class="option">
+       <a href="">USU App</a>
+      </div>
+
+
+    </div>
+     <!-- col ends here -->
+
+     <div class="col-6 p-2">
+       
+      <h4 class="text-white">Clubs & Socities</h4>
+       
+      <div class="option">
+       <a href="">Clubs & Societies A-Z</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Start a club</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Venue & Equipemtn Hire</a>
+      </div>
+
+      <div class="option"> 
+       <a href="">Clubs Portal</a>
+      </div> 
+       
+       
+      <div class="option">
+       <a href="">USU App</a>
+      </div>
+
+
+    </div>
+     <!-- col ends here -->
+
+
+     <div class="col-6 p-2">
+       
+      <h4 class="text-white"> Get Involved</h4>
+       
+      <div class="option">
+       <a href="">Student Board Elections Volunteers</a>
+      </div>
+      
+      <div class="option">
+       <a href="">INCUBATE</a>
+      </div>
+      
+      <div class="option">
+       <a href="">MAD- Make a Difference</a>
+      </div>
+
+      <div class="option"> 
+       <a href=""> Palladian Cup</a>
+      </div> 
+       
+       
+      <div class="option">
+       <a href="">USU Creative Awards</a>
+      </div>
+
+      <div class="option">
+        <a href="">USU Markets</a>
+      </div>
+
+      <div class="option">
+        <a href="">Hermes</a>
+      </div>
+
+      <div class="option">
+        <a href="">Languaga Exchange</a>
+      </div>
+
+      <div class="option">
+        <a href="">Student Publications</a>
+      </div>
+
+
+
+    </div>
+     <!-- col ends here -->
+
+     <div class="col-6 p-2">
+       
+      <h4 class="text-white">Uni Life</h4>
+       
+      <div class="option">
+       <a href="">International Students</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Student Employement</a>
+      </div>
+      
+      <div class="option">
+       <a href="">WeChat</a>
+      </div>
+
+
+    </div>
+     <!-- col ends here -->
+
+    <div class="col-12 p-2">
+       
+      <h4 class="text-white">Shop</h4>
+       
+      <div class="option">
+       <a href="">USYD STORE</a>
+      </div>
+
+      <div class="option">
+        <a href="">Graduation Hire</a>
+       </div>
+      
+    </div>
+     <!-- col ends here -->
+
+     
+    <div class="col-12 p-2">
+       
+      <h4 class="text-white">Food & Drink</h4>
+      
+      <hr class="hr_white">
+ 
+      <div class="social-media d-flex ">
+ 
+        <i class='fab fa-instagram p-3'></i>
+        
+        <i class='fab fa-facebook p-3'></i>
+      
+        <i class='fab fa-twitter p-3'></i>
+      
+        <i class='fab fa-weixin p-3'></i>
+      
+        <i class='fab fa-youtube p-3'></i>
+     
+      </div>
+       
+      
+    </div>
+     <!-- col ends here -->
+
+
+
+
+  </div>
+   <!-- row ends here -->
+
+   
+
+
+
+</div>
+<!-- navbar ends here -->
+
+<!-- JS for navbar -->
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    document.getElementById("open").style.display="none";
+    document.getElementById("close").style.display="block";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+     document.getElementById("open").style.display="block";
+      document.getElementById("close").style.display="none";
+  }
+</script>
+
+
+
+  <!-- JS for navbar -->
+
+
+
 
   <!-- carosuel stars from here -->
 
