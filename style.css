@@ -899,6 +899,7 @@ body {
   }
 
 
+
   .overlay {
     height: 0%;
     min-width: 100%;
@@ -1054,6 +1055,7 @@ body {
     .volunteer-board .vol_img{
     
         min-width: 100%;
+        min-height: 100%;
     }
     
     
@@ -1084,6 +1086,9 @@ body {
     .desktop_member .vol_img{
 
         max-width: none;
+        min-width: 100%;
+        min-height: 100%;
+        
      }
  
  
@@ -1159,9 +1164,9 @@ body {
         color: white;
     }
 
-    .footer_mobile .social-media i{
+    .footer_desktop .social-media i{
 
-        font-size: 24px;
+        font-size: 30px;
     }
     
     .footer_desktop .other_shortcuts{
