@@ -52,12 +52,12 @@ body {
         z-index: 16;
     }
 
-    .navbar .logo{
+    .nav_mobile .logo{
         width: 175px;
     }
 
 
-    .navbar .icon{
+    .nav_mobile .icon{
         color:black; 
         font-size: 40px;
     }
