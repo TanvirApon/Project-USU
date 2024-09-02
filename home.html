@@ -20,7 +20,7 @@
 
 
  <!-- navbar mobile starts from here -->
-<nav class="navbar navbar-expand-md nav_mobile position-relative">
+<nav class="navbar navbar-expand-md nav_mobile position-relative bg-warning">
   <a href=""><img class="img-fluid logo p-3" src="images/usu_logo.png" alt="Logo"></a>
     <span class="icon d-flex ">   
     <i class="fas fa-bars icon" id="open" onclick="openNav()"></i>
@@ -252,15 +252,15 @@
  
       <div class="social-media d-flex ">
  
-        <i class='fab fa-instagram p-3'></i>
+        <i class='fab fa-instagram p-2'></i>
         
-        <i class='fab fa-facebook p-3'></i>
+        <i class='fab fa-facebook p-2'></i>
       
-        <i class='fab fa-twitter p-3'></i>
+        <i class='fab fa-twitter p-2'></i>
       
-        <i class='fab fa-weixin p-3'></i>
+        <i class='fab fa-weixin p-2'></i>
       
-        <i class='fab fa-youtube p-3'></i>
+        <i class='fab fa-youtube p-2'></i>
      
       </div>
        
@@ -278,24 +278,6 @@
 
 </div>
 <!-- navbar ends here -->
-
-<!-- JS for mobile navbar -->
-<script>
-  function openNav() {
-    document.getElementById("myNav").style.height = "100%";
-    document.getElementById("open").style.display="none";
-    document.getElementById("close").style.display="block";
-  }
-
-  function closeNav() {
-    document.getElementById("myNav").style.height = "0%";
-     document.getElementById("open").style.display="block";
-      document.getElementById("close").style.display="none";
-  }
-</script>
-
-
-<!-- JS for mobile navbar -->
 
 
 
@@ -325,7 +307,7 @@
 </nav>
 
  <!-- Ipad mynav starts from here -->
-<div class="deskmyNav overlay container" id="deskmyNav">
+<div class="deskmyNav overlay" id="deskmyNav">
 
   <!-- <form class="form-inline p-4">
     <div class="input-group">
@@ -339,8 +321,8 @@
     
     </div>
   </form> -->
-
-  <div class="row position-absolute p-4">
+  <div class="container p-3">
+  <div class="row">
     
     <div class="col-md-4 col-lg-3 p-4">
        
@@ -506,9 +488,12 @@
 
     </div>
      <!-- col ends here -->
+
+
+
       
-     <div class="col-md-4 col-lg-7 p-4 desktop">
-    <div class="row desktop">
+     <div class="col-md-4 col-lg-7 p-4 ipad_col">
+    <div class="row ">
      <div class="col-md-12 col-lg-4 p-4">
        
       <h4 class="text-white">Uni Life</h4>
@@ -553,15 +538,15 @@
  
       <div class="social-media d-flex ">
  
-        <i class='fab fa-instagram p-2'></i>
+        <a href=""><i class='fab fa-instagram p-2'></i></a>
         
-        <i class='fab fa-facebook p-2'></i>
+        <a href=""><i class='fab fa-facebook p-2'></i></a>
       
-        <i class='fab fa-twitter p-2'></i>
+        <a href=""><i class='fab fa-twitter p-2'></i></a>
       
-        <i class='fab fa-weixin p-2'></i>
+        <a href=""><i class='fab fa-weixin p-2'></i></a>
       
-        <i class='fab fa-youtube p-2'></i>
+        <a href=""><i class='fab fa-youtube p-2'></i></a>
      
       </div>
        
@@ -569,15 +554,85 @@
     </div>
      <!-- col ends here -->
     </div> 
+    <!-- internal row ends here -->
 
-  </div>
+    </div>
+    <!-- interntal col ends here -->
+
+    <div class="col-md-12 col-lg-3 p-4 desktop_col">
+       
+      <h4 class="text-white">Uni Life</h4>
+       
+      <div class="option">
+       <a href="">International Students</a>
+      </div>
+      
+      <div class="option">
+       <a href="">Student Employement</a>
+      </div>
+
+      <div class="option">
+        <a href="">Student Spaces</a>
+      </div>
+
+      <div class="option">
+        <a href="">Verge Gallery</a>
+      </div>
+      
+      <div class="option">
+       <a href="">WeChat</a>
+      </div>
+
+
+    </div>
+     <!-- col ends here -->
+
+    <div class="col-md-12 col-lg-3 p-4 desktop_col">
+       
+      <h4 class="text-white">Shop</h4>
+       
+      <div class="option">
+       <a href="">USYD STORE</a>
+      </div>
+
+      <div class="option">
+        <a href="">Graduation Hire</a>
+       </div>
+      
+    </div>
+     <!-- col ends here -->
+
+     
+    <div class="col-md-12 col-lg-3 p-4 desktop_col">
+       
+      <h4 class="text-white">Food & Drink</h4>
+      
+      <hr class="hr_white">
+ 
+      <div class="social-media d-flex ">
+ 
+        <a href=""><i class='fab fa-instagram p-2'></i></a>
+        
+       <a href=""><i class='fab fa-facebook p-2'></i></a> 
+      
+        <a href=""><i class='fab fa-twitter p-2'></i></a>
+      
+        <a href=""><i class='fab fa-weixin p-2'></i></a>
+      
+        <a href=""><i class='fab fa-youtube p-2'></i></a>
+     
+      </div>
+       
+      
+    </div>
+     <!-- col ends here -->
 
 
 
   </div>
    <!-- row ends here -->
 
-   
+  </div> 
 
 </div>
 <!-- Ipad mynav ends here -->
@@ -585,27 +640,7 @@
 
 <!-- JS for desktop navbar -->
 <script>
-  function deskopenNav() {
-    document.getElementById("deskmyNav").style.height = "100%";
-    document.getElementById("deskopen").style.display="none";
-    document.getElementById("deskclose").style.display="block";
-    document.getElementById("change").style.border="none";
-
-  
-  }
-
-  function deskcloseNav() {
-    document.getElementById("deskmyNav").style.height = "0%";
-     document.getElementById("deskopen").style.display="block";
-      document.getElementById("deskclose").style.display="none";
-      document.getElementById("change").style.border="none";
-    
-  }
-
-  function toggleSearch(){
-    document.getElementById("change").style.border="2px solid white";
-  
-  }
+ 
 
 </script>
 
@@ -706,7 +741,7 @@
   
   <div class="row">
    
-    <div class="col-12 col-md-6 col-lg-6 mb-3 position-relative">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 position-relative">
       <img class="img-fluid vol_img" src="images/MembershipBox1.jpg" alt="student_board">
       
         <div class="head-btn container position-absolute ">
@@ -727,7 +762,7 @@
       
     </div>
 
-    <div class="col-12 col-md-6 col-lg-3 mb-3 position-relative">
+    <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 mb-3 position-relative">
 
      <img class="img-fluid " src="images/ClubsAndSocietiesBox2.jpg" alt="volunteerdemo">
      
@@ -763,7 +798,7 @@
   
     <div class="row">
      
-      <div class="col-12 col-md-6 col-lg-6 mb-3">
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6  mb-3">
         <img class="img-fluid vol_img" src="images/MembershipBox1.jpg" alt="student_board">
            
         <div class="head-btn position-absolute ">
@@ -785,7 +820,7 @@
 
       </div>
   
-      <div class="col-12 col-md-6 col-lg-3 mb-3">
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6  mb-3">
   
        <img class="img-fluid vol_img" src="images/ClubsAndSocietiesBox2.jpg" alt="volunteerdemo">
         
@@ -953,7 +988,7 @@
       
     </div>
 
-    <div class="col-12 col-md-6 col-lg-3 mb-3 position-relative">
+    <div class="col-12 col-md-6 col-lg-6 mb-3 position-relative">
 
      <img class="img-fluid " src="images/VolunteerDemoBox4.jpg" alt="volunteerdemo">
      
@@ -989,7 +1024,7 @@
   
     <div class="row">
      
-      <div class="col-12 col-md-6 col-lg-6 mb-3">
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6 mb-3">
         <img class="img-fluid vol_img" src="images/OurStudentBoardDemoBox3.jpg" alt="student_board">
            
         <div class="head-btn  position-absolute ">
@@ -1011,7 +1046,7 @@
 
       </div>
   
-      <div class="col-12 col-md-6 col-lg-3  mb-3">
+      <div class="col-12 col-md-6 col-lg-6  col-xl-6 mb-3">
   
        <img class="img-fluid vol_img" src="images/VolunteerDemoBox4.jpg" alt="volunteerdemo">
         
@@ -1330,15 +1365,15 @@
 
 <div class="social-media d-flex ">
 
-  <i class='fab fa-instagram p-2'></i>
+  <a href=""><i class='fab fa-instagram p-2'></i></a>
   
-  <i class='fab fa-facebook p-2'></i>
+  <a href=""><i class='fab fa-facebook p-2'></i></a>
 
-  <i class='fab fa-twitter p-2'></i>
+  <a href=""><i class='fab fa-twitter p-2'></i></a>
 
-  <i class='fab fa-weixin p-2'></i>
+  <a href=""><i class='fab fa-weixin p-2'></i></a>
 
-  <i class='fab fa-youtube p-2'></i>
+  <a href=""><i class='fab fa-youtube p-2'></i></a>
 </div>
 <!-- social_media link ends here -->
 
@@ -1449,15 +1484,15 @@
  
  <div class="social-media d-flex ">
  
-   <i class='fab fa-instagram p-3'></i>
+   <a href=""><i class='fab fa-instagram p-2'></i></a>
    
-   <i class='fab fa-facebook p-3'></i>
+   <a href=""><i class='fab fa-facebook p-2'></i></a>
  
-   <i class='fab fa-twitter p-3'></i>
+   <a href=""><i class='fab fa-twitter p-2'></i></a>
  
-   <i class='fab fa-weixin p-3'></i>
+   <a href=""><i class='fab fa-weixin p-2'></i></a>
  
-   <i class='fab fa-youtube p-3'></i>
+   <a href=""><i class='fab fa-youtube p-2'></i></a>
 
  </div>
  <!-- social_media link ends here -->
@@ -1498,6 +1533,57 @@
  </div>
  <!-- footer_desktop ends here -->
  
+
+ 
+<!-- JS for navbar -->
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    document.getElementById("open").style.display="none";
+    document.getElementById("close").style.display="block";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+     document.getElementById("open").style.display="block";
+      document.getElementById("close").style.display="none";
+  }
+  
+    function deskopenNav() {
+    document.getElementById("deskmyNav").style.height = "100%";
+    document.getElementById("deskopen").style.display="none";
+    document.getElementById("deskclose").style.display="block";
+    document.getElementById("change").style.border="none";
+
+  
+  }
+
+  function deskcloseNav() {
+    document.getElementById("deskmyNav").style.height = "0%";
+     document.getElementById("deskopen").style.display="block";
+      document.getElementById("deskclose").style.display="none";
+      document.getElementById("change").style.border="none";
+    
+  }
+
+  function toggleSearch(){
+    document.getElementById("change").style.border="2px solid white";
+  
+  } 
+
+
+  
+
+
+
+
+
+
+
+</script>
+
+
+<!-- JS for navbar -->
 
 
 
