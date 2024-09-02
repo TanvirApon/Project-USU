@@ -52,12 +52,12 @@ body {
         z-index: 16;
     }
 
-    .navbar .logo{
+    .nav_mobile .logo{
         width: 175px;
     }
 
 
-    .navbar .icon{
+    .nav_mobile .icon{
         color:black; 
         font-size: 40px;
     }
@@ -650,7 +650,7 @@ body {
 
 @media (min-width: 1024px) {
 
-      /* navbar code starts from here */
+    /* navbar code starts from here */
 
     .nav_mobile{
         display: none;
