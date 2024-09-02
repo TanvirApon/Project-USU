@@ -8,6 +8,14 @@ body {
     margin: 0;
 }
 
+.carousel-indicators li {      
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;      
+}
+
+
 
 
 
@@ -18,22 +26,19 @@ body {
 /* navbar code starts from here */
     
 
-    .nav_mobile {
+    /* .nav_mobile {
     
         background-color: #FFD700;
-    }
-
+    } */
 
     .nav_desktop{
 
         display: none !important;
     }
-
-    
+ 
     .nav_mobile #close{
         display: none;
     }
-
 
     .overlay {
         height: 0%;
@@ -47,24 +52,18 @@ body {
         z-index: 16;
     }
 
-
-
-    .nav_mobile .logo{
-
+    .navbar .logo{
         width: 175px;
-
     }
 
 
-    .nav_mobile .icon{
-
+    .navbar .icon{
         color:black; 
         font-size: 40px;
     }
 
 
-    .myNav .search {
-        
+    .myNav .search {  
         background-color: #FFD700;
         color: black;   
     }
@@ -75,6 +74,7 @@ body {
         font-size: 16px;
         color: #d3d3d3;
     }
+
 
     .myNav .col-12 .hr_white{
         background-color: white;
@@ -87,24 +87,23 @@ body {
         color: white;
     }
 
-    .myNav .col-12 .social-media i{
+    .myNav .col-12 .social-media a{
 
-        font-size: 30px;
+        text-decoration: none;
+        color: white;
     }
 
-    
+
+    .myNav .col-12 .social-media i{
+      font-size: 30px;
+    }
     /* navbar code ends here */
 
-
-
-
     .card_image{
-
         width: 100%;
     }
         
-    .card_title{
-        
+    .card_title{   
         min-height: 100px;
     }
 
@@ -112,9 +111,7 @@ body {
 
     /* usu-card starts from here    */
     .usu-card-web-icons .container .row .col-6 .desktop{
-
         display: none;
-
     }
 
     /* usu-card ends here */
@@ -122,14 +119,11 @@ body {
 
     /* student cards start from here */
     .student-card .icon{
-
-        bottom: 25px;
-        right: 20px;
-        
+        bottom: 16px;
+        right: 20px;  
     } 
 
     .student-card .desktop_int{
-
         display: none;
     }
 
@@ -139,52 +133,33 @@ body {
 
     /* unilive-card starts from here */
     .unilive-card .icon{
-
-        bottom: 25px;
-        right: 20px;
-        
+        bottom: 16px;
+        right: 20px;  
     } 
 
     .unilive-card .desktop_uni{
-
         display: none;
     }
 
     /* unilive-card ends here */
 
-
     /* add stars from here */
-
     .desk_img{
-
         display: none;
     }
-
-
-
-
     /* add ends here */
-
-
 
     /* video code starts from here */
 
     .desk_video{
-
         display: none;
     }
-
 
     /* video card ends here */
 
-
     .desktop_volun{
-
         display: none;
     }
-
-
-
     .volunteer-board .head-btn{
 
         text-align: center;
@@ -193,152 +168,116 @@ body {
         left: 16%;
     } 
 
-
     .volunteer-board .vol_img{
-
         min-width: 100%;
     }
 
-
-
     .volunteer-board .head-btn .header{
-
         font-size: 28px; 
-        text-align: center;
-        
+        text-align: center;   
     } 
 
-
     .volunteer-board .bttn .buttn{
-
         background-color: black;
         padding: 10px 30px;
         border: none;
-
     } 
 
-
     .desktop_member {
-
         display: none;
-
     }
 
-
-
     .mobile_member .head-btn{
-
         text-align: center;
         bottom: 15%;
         left: 15%;
         width: 70%;
     } 
 
-
     .mobile_member .vol_img{
-
         min-width: 100%;
     }
 
-
-
     .mobile_member .head-btn .header{
-
         font-size: 34px;
         text-align: center;  
     } 
 
     .mobile_member .bttn .buttn{
-
         background-color: black;
         padding: 10px 30px;
         border: none;
-
     }
 
     .footer_desktop{
-
         display: none;
     }
 
     .footer_mobile{
-
-    background-color: black;
-
+     background-color: black;
     }
 
     .footer_mobile .shortcuts a{
-
         color: white;
         text-decoration: none;
-
     }
 
     .footer_mobile .hr_white{
-
         background-color: white;
         width: 315px;
         height: 1px;
         margin-left: 0px;
-
     }
 
     .footer_mobile .app_details h5{
-
         color: white;
     }
 
     .footer_mobile .social-media{
+        color: white;
+    }
 
+    .footer_mobile .social-media a{
+        text-decoration: none;
         color: white;
     }
 
     .footer_mobile .social-media i{
-
         font-size: 30px;
     }
 
     .footer_mobile .other_shortcuts{
-
         color: white;
     }
 
     .footer_mobile .other_shortcuts .option{
-
         font-size: 14px;
     }
 
     #mobile_carousel .inside{
-
         text-align: center;
         width: 90%;
         bottom: 35%;
         left: 5%;
-
     }
 
     #mobile_carousel .inside .header{
-
         font-size: 29px;
-        font-weight: bold;
-        
+        font-weight: bold;  
     }
-    #mobile_carousel .inside .btn .buttn{
-        
+
+    #mobile_carousel .inside .btn .buttn{       
         background-color: #FFD700;
         padding: 10px 20px;
         border: none;
-        font-size: 18px;
-            
+        font-size: 18px;     
     }
 
     #mobile_carousel .desktop_usyd{
-
         display: none;
     }
 
     #mobile_carousel .desktop_grad{
-
         display: none;
     }
 
@@ -348,106 +287,67 @@ body {
         height: 12px;
         border-radius: 50%;
         background-color: #ffffff;
-
     }
 
 
     #desktop_carousel .inside{
-
         text-align: center;
         width: 90%;
         left: 7%;
-        bottom: 25%;
-        
-        
+        bottom: 25%;   
     }
         
-    #desktop_carousel .inside .header{
-        
+    #desktop_carousel .inside .header{  
         font-size: 40px;
-        font-weight: bold;
-            
+        font-weight: bold;       
     }
 
-    #desktop_carousel .inside .btn .buttn{
-        
+    #desktop_carousel .inside .btn .buttn{   
         background-color: #FFD700;
         padding: 10px 12px;
         border: none;
         font-size: 20px;
-        width: 206px;
-            
+        width: 206px;       
     }
         
-    #desktop_carousel .desktop_web{
-        
+    #desktop_carousel .desktop_web{    
         display: none;
     }
         
-    #desktop_carousel .desktop_members{
-        
+    #desktop_carousel .desktop_members{    
         display: none;
     }
 
     #desktop_carousel .desktop_home{
-        
         display: none;
     }
         
         
     .carousel-indicators li {
-
         width: 12px;
         height: 12px;
         border-radius: 50%;
-        background-color: #ffffff;
-        
-            
+        background-color: #ffffff;       
     }
 
 }
 /* mobile view ends here */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ipad view  starts from here */
 @media (min-width: 768px) and (max-width: 1023px){
-
-
     /* navbar code starts from here */
-
     .nav_mobile{
-
         display: none;
     }
+
     .nav_desktop {
-    
-        background-color: #FFD700;
-        
+        background-color: #FFD700;  
     }
 
     .nav_desktop .icon{
-    
         background-color: #FFD700;
         color: black;
-
     }
     
     .nav_desktop #deskclose{
@@ -456,18 +356,16 @@ body {
 
 
     .nav_desktop #basic-addon1{
-
         background: #FFD700;
         color: black;
         font-size: 22px;
         border: 2px white;
-
     }
+
     .nav_desktop .search-input{
         background-color: #FFD700;
         border: none;
     }
-
 
     .overlay {
         height: 0%;
@@ -483,103 +381,82 @@ body {
 
 
     .nav_desktop .logo{
-
         width: 145px;
-
-
     }
 
     .nav_desktop .icon{
-
         color:black; 
         font-size:30px;
-
-
     }
 
     .myNav .search {
-        
         background-color: #FFD700;
         color: black;
-    
     }
 
-    
     .deskmyNav .option a{
-    
         text-decoration: none;
         font-size: 16px;
         color: #d3d3d3;
+    }
 
+    .deskmyNav .container .desktop_col{
+        display: none;
     }
 
     .deskmyNav  .hr_white{
-
         background-color: white;
-        width: 210px;
+        width: 175px;
         height: 1px;
         margin-left: 0px;
-
     }
 
     .deskmyNav .social-media{
+        color: white;
+    }
 
+    
+    .deskmyNav .social-media a{
+        text-decoration: none;
         color: white;
     }
 
     .deskmyNav .social-media i{
-
         font-size: 20px;
     }
 
     /* navbar code ends here */
 
-
-
-
     .card_image{
-
         width: 100%;
     }
     
     .card_title{
-    
         min-height: 135px;
     }
 
-    
-    
-
-    .usu-card-web-icons .container .row .col-6 .mobile{
-       
+    .usu-card-web-icons .container .row .col-6 .mobile{ 
         display: none;
-    
     }
 
     .student-card .mobile_int{
-
         display: none;
     }
 
     .student-card .icon{
-
         bottom: 25px;
-        right: 20px;
-        
+        right: 20px;  
     } 
 
 
 
     /* * unilive-card starts from here */ 
     .unilive-card .icon{
-
         bottom: 25px;
-        right: 20px;
-        
+        right: 20px;   
     } 
 
     .unilive-card .mobile_uni{
-
         display: none;
     }
 
@@ -587,274 +464,186 @@ body {
 
     
     .mob_img{
-
         display: none;
     }
 
 
     .mob_video{
-
         display: none;
     }
 
     
     .mobile_volun{
-
         display: none;
     }
 
     .volunteer-board .head-btn{
-
         text-align: center;
         width: 80%;
         left: 10%;
         bottom: 20%;
-    
     } 
     
     .volunteer-board .vol_img{
-    
         min-width: 100%;
     }
     
     
     
     .volunteer-board .head-btn .header{
-    
         font-size: 34px;
-        text-align: center;
-    
-  
-        
+        text-align: center; 
     } 
     
     .volunteer-board .bttn .buttn{
-    
         background-color: black;
         padding: 10px 30px;
         border: none;
-    
     } 
 
     .mobile_member{
-
         display: none;
     }
 
     .desktop_member .head-btn{
-
         text-align: center;
         bottom: 15%;
         left: 15%;
         width: 80%;
-    
     } 
     
     .desktop_member .vol_img{
-    
         min-width: 100%;
     }
     
     
     
-    .desktop_member .head-btn .header{
-    
+    .desktop_member .head-btn .header{ 
         font-size: 34px;
-        text-align: center;
- 
-        
+        text-align: center;    
     } 
     
-    .desktop_member .bttn .buttn{
-    
+    .desktop_member .bttn .buttn{  
         background-color: black;
         padding: 10px 30px;
-        border: none;
-    
+        border: none; 
     } 
 
 
     .footer_mobile{
-
         display: none;
     }
     
-    .footer_desktop{
-    
+    .footer_desktop{  
        background-color: black;
-    
     }
     
     .footer_desktop  a{
-    
         color: white;
         text-decoration: none;
-    
     }
     
     .footer_desktop .hr_white{
-    
         background-color: white;
         width: 315px;
         height: 1px;
         margin-left: 0px;
-    
     }
     
     .footer_desktop  h5{
-    
         color: white;
     }
     
-    .footer_desktop .social-media{
-    
+
+    .footer_desktop .social-media a{ 
+        text-decoration: none;
         color: white;
     }
 
     .footer_mobile .social-media i{
-
         font-size: 24px;
     }
     
     .footer_desktop .other_shortcuts{
-    
         color: white;
     }
 
 
     #mobile_carousel .inside{
-
         top: 40%;
         left: 10%;
         text-align: center;
-        width: 80%;
-        
-        
+        width: 80%;       
     }
         
-    #mobile_carousel .inside .header{
-        
+    #mobile_carousel .inside .header{      
         font-size: 45px;
-        font-weight: bold;
-            
+        font-weight: bold;        
     }
 
-    #mobile_carousel .inside .btn .buttn{
-    
+    #mobile_carousel .inside .btn .buttn{ 
         background-color: #FFD700;
         padding: 10px 20px;
         border: none;
-        font-size: 18px;
-            
+        font-size: 18px;        
     }
-    
-        
-    #mobile_carousel .mobile_usyd{
-        
+       
+    #mobile_carousel .mobile_usyd{   
         display: none;
     }
         
-    #mobile_carousel .desktop_grad{
-        
+    #mobile_carousel .mobile_grad{
         display: none;
     }
         
-        
-    .carousel-indicators li {
-        
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #ffffff;
-        
-            
-    }
-
-
     #desktop_carousel .inside{
-
         text-align: center;
         width: 80%;
         bottom: 25%;
         left: 12%;
-     
     }
         
-    #desktop_carousel .inside .header{
-        
+    #desktop_carousel .inside .header{ 
         font-size: 30px;
         font-weight: bold;
-            
     }
 
-    #desktop_carousel .inside .btn .buttn{
-    
+    #desktop_carousel .inside .btn .buttn{ 
         background-color: #FFD700;
         padding: 10px 12px;
         border: none;
         font-size: 20px;
-        width: 206px;
-            
+        width: 206px;     
     }
         
-    #desktop_carousel .mobile_web{
+    #desktop_carousel .mobile_web{  
+        display: none;
+    }
         
-            display: none;
-        }
-        
-    #desktop_carousel .mobile_members{
-        
-            display: none;
-        }
+    #desktop_carousel .mobile_members{    
+        display: none;
+    }
 
-        #desktop_carousel .desktop_web{
-        
-             min-width: 100%;
-        
-        }
-        
-        #desktop_carousel .mobile_appic{
-        
-            display: none;
-        }
-        
-        
-        .carousel-indicators li {
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: #ffffff;
-        
-            
-        }
-    
+    #desktop_carousel .desktop_web{    
+        min-width: 100%;    
+    }
 
-    
+        
+    #desktop_carousel .mobile_appic{   
+        display: none;
+    }
 
-
+         
+    .carousel-indicators li {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: #ffffff;
+    }
 
 }
 
 /* ipad view ends here */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* desktop view starts from here */
@@ -863,159 +652,131 @@ body {
 
       /* navbar code starts from here */
 
-.nav_mobile{
+    .nav_mobile{
+        display: none;
+    }
+    .nav_desktop {
+        background-color: #FFD700;     
+    }
 
-    display: none;
-}
-  .nav_desktop {
-   
-    background-color: #FFD700;
+    .nav_desktop .icon{  
+        background-color: #FFD700;
+        color: black;
+    }
     
-  }
-
-  .nav_desktop .icon{
- 
-    background-color: #FFD700;
-    color: black;
-
-  }
-  
-  .nav_desktop #deskclose{
-    display: none;
-  }
+    .nav_desktop #deskclose{
+        display: none;
+    }
 
 
-  .nav_desktop #basic-addon1{
+    .nav_desktop #basic-addon1{
+        background: #FFD700;
+        color: black;
+        font-size: 22px;
+        border: 2px white;
+    }
 
-    background: #FFD700;
-    color: black;
-    font-size: 22px;
-    border: 2px white;
+    .nav_desktop .search-input{
+        background-color: #FFD700;
+        border: none;
+    }
 
-  }
-  .nav_desktop .search-input{
-    background-color: #FFD700;
-    border: none;
-  }
+    .overlay {
+        height: 0%;
+        min-width: 100%;
+        position: absolute;
+        top: 76px;
+        left: 0;
+        background-color: black;
+        overflow-y:scroll;
+        transition: 0.5s;
+        z-index: 16;
+    }
 
+    .nav_desktop .logo{
+        width: 145px;
+    }
 
+    .nav_desktop .icon{
+        color:black; 
+        font-size:30px;
+    }
 
-  .overlay {
-    height: 0%;
-    min-width: 100%;
-    position: absolute;
-    top: 76px;
-    left: 0;
-    background-color: black;
-    overflow-y:scroll;
-    transition: 0.5s;
-    z-index: 16;
-  }
+    .myNav .search {  
+        background-color: #FFD700;
+        color: black;
+    }
 
-
-
-
-
-  .nav_desktop .logo{
-
-     width: 145px;
-
-
-  }
-
-  .nav_desktop .icon{
-
-    color:black; 
-    font-size:30px;
-
-
- }
-
-  .myNav .search {
     
-    background-color: #FFD700;
-    color: black;
-   
-  }
+    .deskmyNav .option a{
+        text-decoration: none;
+        font-size: 16px;
+        color: #d3d3d3;
+    }
 
- 
-   .deskmyNav .option a{
- 
-    text-decoration: none;
-    font-size: 16px;
-    color: #d3d3d3;
-   }
+    .deskmyNav .container .ipad_col{
+        display: none;
+    }
 
-   .deskmyNav  .hr_white{
 
-    background-color: white;
-    width: 215px;
-    height: 1px;
-    margin-left: 0px;
+    .deskmyNav  .hr_white{
+        background-color: white;
+        width: 175px;
+        height: 1px;
+        margin-left: 0px;
+    }
 
-}
 
-.deskmyNav .social-media{
 
-    color: white;
-}
+    .deskmyNav .social-media a{
+        text-decoration: none;
+        color: white;
+    }
 
-.deskmyNav .social-media i{
 
-    font-size: 20px;
-}
+    .deskmyNav .social-media i{
+        font-size: 20px;
+    }
 
   /* navbar code ends here */
 
 
     .card_image{
-
         width: 100%;
     }
     
     .card_title{
-    
         min-height: 170px;
     }
 
-    
-
     .usu-card-web-icons .container .row .col-6 .mobile{
         display: none;
-    
     }
 
     .student-card .mobile_int{
-
         display: none;
     }
 
 
     .student-card .icon{
-
         bottom: 25px;
-        right: 20px;
-        
+        right: 20px;  
     } 
 
     /* unilive-card starts from here */
     .unilive-card .icon{
-
-    bottom: 25px;
-    right: 20px;
+        bottom: 25px;
+        right: 20px;
     
     } 
 
    .unilive-card .mobile_uni{
-
-    display: none;
+        display: none;
     }
 
      /* unilive-card ends here */
 
-    
      .mob_img{
-
         display: none;
     }
 
@@ -1023,59 +784,41 @@ body {
         min-width:100%;
     }
 
-
     .mob_video{
-
         display: none;
     }
 
 
     .mobile_volun{
-
         display: none;
     }
 
 
     .desktop_volun .vol_img{
-
-       max-width: none;
+        min-width: 100% !important;
+        min-height: 100%;
+       
     }
 
 
     .volunteer-board .head-btn{
-
-    
         text-align: center;
-        width: 455px;
+        width: 450px;
         bottom: 132px;
-        left: 50px;
-    
+        left: 28px;
     } 
     
-    .volunteer-board .vol_img{
-    
-        min-width: 100%;
-        min-height: 100%;
-    }
-    
-    
-    
     .volunteer-board .head-btn .header{
-    
         font-size: 38px;
         text-align: center;
-        min-width: 100%;
-       
-        
+        min-width: 100%;  
     } 
     
     .volunteer-board .bttn .buttn{
-    
         background-color: black;
         padding: 10px 30px;
         border: none;
         font-size: 20px;
-    
     } 
 
 
@@ -1083,222 +826,161 @@ body {
         display: none;
     }
 
-    .desktop_member .vol_img{
 
-        max-width: none;
+    .desktop_member .vol_img{
         min-width: 100%;
-        min-height: 100%;
-        
-     }
- 
+        min-height: 100%;   
+    }
  
      .desktop_member .head-btn{
- 
-         text-align: center;
-         width: 400px;
-         bottom: 100px;
-         left: 75px;
-     
-     } 
-     
-     .desktop_member .vol_img{
-     
-         min-width: 100%;
-     }
-     
-     
-     
-     .desktop_member .head-btn .header{
-     
-         font-size: 38px;
-         text-align: center;
-         min-width: 100%;
-        
+        text-align: center;
+        width: 400px;
+        bottom: 100px;
+        left: 75px;
+    } 
          
-     } 
+    .desktop_member .head-btn .header{   
+        font-size: 38px;
+        text-align: center;
+        min-width: 100%;   
+    } 
      
-     .desktop_member .bttn .buttn{
-     
-         background-color: black;
-         padding: 10px 30px;
-         border: none;
-         font-size: 20px;
-     
-     } 
+
+    .desktop_member .bttn .buttn{
+        background-color: black;
+        padding: 10px 30px;
+        border: none;
+        font-size: 20px;
+    } 
 
 
-     .footer_mobile{
-
+    .footer_mobile{
         display: none;
     }
     
+
     .footer_desktop{
-    
        background-color: black;
-    
     }
     
     .footer_desktop  a{
-    
         color: white;
         text-decoration: none;
-    
     }
+
     
     .footer_desktop .hr_white{
-    
         background-color: white;
-        width: 315px;
+        width: 240px;
         height: 1px;
         margin-left: 0px;
-    
     }
+
     
     .footer_desktop  h5{
-    
         color: white;
     }
+
     
     .footer_desktop .social-media{
-    
         color: white;
     }
 
-    .footer_desktop .social-media i{
+    .footer_desktop .social-media a{
+        text-decoration: none;
+    }
 
-        font-size: 30px;
+
+    .footer_desktop .social-media i{
+        font-size: 34px;
     }
     
     .footer_desktop .other_shortcuts{
-    
         color: white;
     }
 
 
     #mobile_carousel .inside{
-
         left: 16%;
         text-align: center;
         width: 70%;
-        bottom: 38%;
-        
-        
+        bottom: 38%;   
     }
 
     #mobile_carousel .inside .btn .buttn{
-    
         background-color: #FFD700;
         padding: 10px 50px;
         border: none;
-        font-size: 25px;
-            
+        font-size: 25px;      
     }
 
     #mobile_carousel img{
-
        min-width: 100%;
-
     }
     
         
-    #mobile_carousel .inside .header{
-        
+    #mobile_carousel .inside .header{    
         font-size: 70px;
-        font-weight: bold;
-            
+        font-weight: bold;      
     }
         
-    #mobile_carousel .mobile_usyd{
-        
+    #mobile_carousel .mobile_usyd{  
         display: none;
     }
 
-    #mobile_carousel .desktop_usyd{
-        
+    #mobile_carousel .desktop_usyd{  
       min-width: 100%;
     }
         
-    #mobile_carousel .mobile_grad{
-        
+    #mobile_carousel .mobile_grad{ 
         display: none;
     }
         
         
-    .carousel-indicators li {
-        
+    .carousel-indicators li {  
         width: 12px;
         height: 12px;
         border-radius: 50%;
-        background-color: #ffffff;
-        
-            
+        background-color: #ffffff;        
     }
 
 
     #desktop_carousel img{
-
         min-width: 100%;
     }
     
     #desktop_carousel .inside{
-
         left: 20%;
         text-align: center;
         width: 60%;
-        bottom: 35%;
-        
+        bottom: 35%;  
     }
         
-    #desktop_carousel .inside .header{
-        
+    #desktop_carousel .inside .header{   
         font-size: 50px;
-        font-weight: bold;
-            
+        font-weight: bold;      
     }
 
     #desktop_carousel .inside .btn .buttn{
-    
         background-color: #FFD700;
         padding: 10px 12px;
         border: none;
         font-size: 20px;
-        width: 206px;
-            
+        width: 206px;      
     }
         
-    #desktop_carousel .mobile_web{
-        
+    #desktop_carousel .mobile_web{  
         display: none;
     }
         
-    #desktop_carousel .mobile_members{
-        
+    #desktop_carousel .mobile_members{     
         display: none;
     }
 
-  
-        
-    #desktop_carousel .mobile_appic{
-        
+    #desktop_carousel .mobile_appic{     
         display: none;
     }
         
-        
-    .carousel-indicators li {
-        
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #ffffff;
-        
-            
-    }
-    
-
-
-
-
-
 }
 
 /* desktop view ends here */
