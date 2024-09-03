@@ -17,8 +17,6 @@ body {
 
 
 
-
-
 /* mobile view starts from here */
 
 @media (max-width:767px) {
@@ -209,51 +207,6 @@ body {
         border: none;
     }
 
-    .footer_desktop{
-        display: none;
-    }
-
-    .footer_mobile{
-     background-color: black;
-    }
-
-    .footer_mobile .shortcuts a{
-        color: white;
-        text-decoration: none;
-    }
-
-    .footer_mobile .hr_white{
-        background-color: white;
-        width: 315px;
-        height: 1px;
-        margin-left: 0px;
-    }
-
-    .footer_mobile .app_details h5{
-        color: white;
-    }
-
-    .footer_mobile .social-media{
-        color: white;
-    }
-
-    .footer_mobile .social-media a{
-        text-decoration: none;
-        color: white;
-    }
-
-    .footer_mobile .social-media i{
-        font-size: 30px;
-    }
-
-    .footer_mobile .other_shortcuts{
-        color: white;
-    }
-
-    .footer_mobile .other_shortcuts .option{
-        font-size: 14px;
-    }
-
     #mobile_carousel .inside{
         text-align: center;
         width: 90%;
@@ -330,6 +283,52 @@ body {
         background-color: #ffffff;       
     }
 
+
+    /* footer starts from here */
+
+    .footer{
+        background-color: black;
+    }
+     
+    .footer  a{
+        color: white;
+        text-decoration: none;
+    }
+ 
+     
+    .footer .hr_white{
+        background-color: white;
+        width: 240px;
+        height: 1px;
+        margin-left: 10px;
+    }
+ 
+     
+    .footer  h5{
+        color: white;
+    }
+ 
+     
+    .footer .social-media{
+        color: white;
+    }
+ 
+     .footer .social-media a{
+        text-decoration: none;
+    }
+ 
+ 
+    .footer .social-media i{
+        font-size: 34px;
+    }
+     
+    .footer .other_shortcuts{
+        color: white;
+    }
+ 
+    /* footer ends here */
+ 
+
 }
 /* mobile view ends here */
 
@@ -394,34 +393,34 @@ body {
         color: black;
     }
 
-    .deskmyNav .option a{
+    .myNav .option a{
         text-decoration: none;
         font-size: 16px;
         color: #d3d3d3;
     }
 
-    .deskmyNav .container .desktop_col{
+    .myNav .container .desktop_col{
         display: none;
     }
 
-    .deskmyNav  .hr_white{
+    .myNav  .hr_white{
         background-color: white;
         width: 175px;
         height: 1px;
         margin-left: 0px;
     }
 
-    .deskmyNav .social-media{
+    .myNav .social-media{
         color: white;
     }
 
     
-    .deskmyNav .social-media a{
+    .myNav .social-media a{
         text-decoration: none;
         color: white;
     }
 
-    .deskmyNav .social-media i{
+    .myNav .social-media i{
         font-size: 20px;
     }
 
@@ -529,46 +528,6 @@ body {
         border: none; 
     } 
 
-
-    .footer_mobile{
-        display: none;
-    }
-    
-    .footer_desktop{  
-       background-color: black;
-    }
-    
-    .footer_desktop  a{
-        color: white;
-        text-decoration: none;
-    }
-    
-    .footer_desktop .hr_white{
-        background-color: white;
-        width: 315px;
-        height: 1px;
-        margin-left: 0px;
-    }
-    
-    .footer_desktop  h5{
-        color: white;
-    }
-    
-
-    .footer_desktop .social-media a{ 
-        text-decoration: none;
-        color: white;
-    }
-
-    .footer_mobile .social-media i{
-        font-size: 24px;
-    }
-    
-    .footer_desktop .other_shortcuts{
-        color: white;
-    }
-
-
     #mobile_carousel .inside{
         top: 40%;
         left: 10%;
@@ -641,6 +600,51 @@ body {
         background-color: #ffffff;
     }
 
+    /* footer starts from here */
+
+    .footer{
+        background-color: black;
+    }
+     
+    .footer  a{
+        color: white;
+        text-decoration: none;
+    }
+ 
+     
+    .footer .hr_white{
+        background-color: white;
+        width: 240px;
+        height: 1px;
+        margin-left: 10px;
+    }
+ 
+     
+    .footer  h5{
+        color: white;
+    }
+ 
+     
+    .footer .social-media{
+        color: white;
+    }
+ 
+     .footer .social-media a{
+        text-decoration: none;
+    }
+ 
+ 
+    .footer .social-media i{
+        font-size: 34px;
+    }
+     
+    .footer .other_shortcuts{
+        color: white;
+    }
+ 
+    /* footer ends here */
+    
+
 }
 
 /* ipad view ends here */
@@ -651,15 +655,15 @@ body {
 @media (min-width: 1024px) {
 
     /* navbar code starts from here */
-
     .nav_mobile{
         display: none;
     }
+
     .nav_desktop {
-        background-color: #FFD700;     
+        background-color: #FFD700;  
     }
 
-    .nav_desktop .icon{  
+    .nav_desktop .icon{
         background-color: #FFD700;
         color: black;
     }
@@ -693,6 +697,7 @@ body {
         z-index: 16;
     }
 
+
     .nav_desktop .logo{
         width: 145px;
     }
@@ -702,44 +707,43 @@ body {
         font-size:30px;
     }
 
-    .myNav .search {  
+    .myNav .search {
         background-color: #FFD700;
         color: black;
     }
 
-    
-    .deskmyNav .option a{
+    .myNav .option a{
         text-decoration: none;
         font-size: 16px;
         color: #d3d3d3;
     }
 
-    .deskmyNav .container .ipad_col{
+    .myNav .container .desktop_col{
         display: none;
     }
 
-
-    .deskmyNav  .hr_white{
+    .myNav  .hr_white{
         background-color: white;
         width: 175px;
         height: 1px;
         margin-left: 0px;
     }
 
+    .myNav .social-media{
+        color: white;
+    }
 
-
-    .deskmyNav .social-media a{
+    
+    .myNav .social-media a{
         text-decoration: none;
         color: white;
     }
 
-
-    .deskmyNav .social-media i{
+    .myNav .social-media i{
         font-size: 20px;
     }
 
-  /* navbar code ends here */
-
+    /* navbar code ends here */
 
     .card_image{
         width: 100%;
@@ -852,54 +856,7 @@ body {
         border: none;
         font-size: 20px;
     } 
-
-
-    .footer_mobile{
-        display: none;
-    }
     
-
-    .footer_desktop{
-       background-color: black;
-    }
-    
-    .footer_desktop  a{
-        color: white;
-        text-decoration: none;
-    }
-
-    
-    .footer_desktop .hr_white{
-        background-color: white;
-        width: 240px;
-        height: 1px;
-        margin-left: 0px;
-    }
-
-    
-    .footer_desktop  h5{
-        color: white;
-    }
-
-    
-    .footer_desktop .social-media{
-        color: white;
-    }
-
-    .footer_desktop .social-media a{
-        text-decoration: none;
-    }
-
-
-    .footer_desktop .social-media i{
-        font-size: 34px;
-    }
-    
-    .footer_desktop .other_shortcuts{
-        color: white;
-    }
-
-
     #mobile_carousel .inside{
         left: 16%;
         text-align: center;
@@ -980,6 +937,52 @@ body {
     #desktop_carousel .mobile_appic{     
         display: none;
     }
+
+
+    /* footer starts from here */
+
+    .footer{
+        background-color: black;
+     }
+     
+     .footer  a{
+         color: white;
+         text-decoration: none;
+     }
+ 
+     
+     .footer .hr_white{
+         background-color: white;
+         width: 240px;
+         height: 1px;
+         margin-left: 0px;
+     }
+ 
+     
+     .footer  h5{
+         color: white;
+     }
+ 
+     
+     .footer .social-media{
+         color: white;
+     }
+ 
+     .footer .social-media a{
+         text-decoration: none;
+     }
+ 
+ 
+     .footer .social-media i{
+         font-size: 34px;
+     }
+     
+     .footer .other_shortcuts{
+         color: white;
+     }
+ 
+     /* footer ends here */
+ 
         
 }
 
