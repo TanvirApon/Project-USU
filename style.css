@@ -753,6 +753,14 @@ body {
         min-height: 170px;
     }
 
+    .card_title h6{
+        min-height: 42px;
+    }
+
+    .card_title p{
+        min-height: 60px;
+    }
+
     .usu-card-web-icons .container .row .col-6 .mobile{
         display: none;
     }
@@ -809,7 +817,7 @@ body {
         text-align: center;
         width: 450px;
         bottom: 132px;
-        left: 28px;
+        left: 55px;
     } 
     
     .volunteer-board .head-btn .header{
