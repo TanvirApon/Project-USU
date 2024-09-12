@@ -2,996 +2,743 @@
     box-sizing: border-box;
     font-family: 'LucidaGrande';
     src: url('fonts/LucidaGrandeBold.ttf');
-}
-             
+}            
 body {
     margin: 0;
 }
-
 .carousel-indicators li {      
     width: 12px;
     height: 12px;
     border-radius: 50%;
     background-color: #ffffff;      
 }
-
-
-
 /* mobile view starts from here */
-
 @media (max-width:767px) {
-
 /* navbar code starts from here */
-    
+.nav_desktop{
+    display: none !important;
+} 
+.nav_mobile #close{
+    display: none;
+}
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    background-color: black;
+    overflow-y:scroll;
+    transition: 0.5s;
+    z-index: 16;
+}
+.nav_mobile .logo{
+    width: 175px;
+}
+.nav_mobile .icon{
+    color:black; 
+    font-size: 25px;
+}
+.myNav .search {  
+    background-color: #FFD700;
+    color: black;   
+}
+.myNav .option a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #d3d3d3;
+}
+.myNav .col-12 .hr_white{
+    background-color: white;
+    width: 315px;
+    height: 1px;
+    margin-left: 0px;
+}
+.myNav .col-12 .social-media{
+    color: white;
+}
+.myNav .col-12 .social-media a{
+    text-decoration: none;
+    color: white;
+}
+.myNav .col-12 .social-media i{
+    font-size: 30px;
+}
+/* navbar code ends here */
+.card_image{
+    width: 100%;
+}     
+.card_title{   
+    min-height: 100px;
+}
+/* usu-card starts from here    */
+.usu-card-web-icons .container .row .col-6 .desktop{
+    display: none;
+}
+/* usu-card ends here */
 
-    /* .nav_mobile {
-    
-        background-color: #FFD700;
-    } */
+/* student cards start from here */
+.student-card .icon{
+    bottom: 16px;
+    right: 20px;  
+} 
+.student-card .desktop_int{
+    display: none;
+}
+/* student card ends here */
 
-    .nav_desktop{
+/* unilive-card starts from here */
+.unilive-card .icon{
+    bottom: 16px;
+    right: 20px;  
+} 
+.unilive-card .desktop_uni{
+    display: none;
+}
+/* unilive-card ends here */
 
-        display: none !important;
-    }
- 
-    .nav_mobile #close{
-        display: none;
-    }
+/* add stars from here */
+.desk_img{
+    display: none;
+}
+/* add ends here */
 
-    .overlay {
-        height: 0%;
-        width: 100%;
-        position: absolute;
-        top: 76px;
-        left: 0;
-        background-color: black;
-        overflow-y:scroll;
-        transition: 0.5s;
-        z-index: 16;
-    }
+/* video code starts from here */
+.desk_video{
+    display: none;
+}
+/* video card ends here */
 
-    .nav_mobile .logo{
-        width: 175px;
-    }
-
-
-    .nav_mobile .icon{
-        color:black; 
-        font-size: 25px;
-    }
-
-
-    .myNav .search {  
-        background-color: #FFD700;
-        color: black;   
-    }
-
-    
-    .myNav .option a{
-        text-decoration: none;
-        font-size: 16px;
-        color: #d3d3d3;
-    }
-
-
-    .myNav .col-12 .hr_white{
-        background-color: white;
-        width: 315px;
-        height: 1px;
-        margin-left: 0px;
-    }
-
-    .myNav .col-12 .social-media{
-        color: white;
-    }
-
-    .myNav .col-12 .social-media a{
-
-        text-decoration: none;
-        color: white;
-    }
-
-
-    .myNav .col-12 .social-media i{
-      font-size: 30px;
-    }
-    /* navbar code ends here */
-
-    .card_image{
-        width: 100%;
-    }
-        
-    .card_title{   
-        min-height: 100px;
-    }
-
-
-
-    /* usu-card starts from here    */
-    .usu-card-web-icons .container .row .col-6 .desktop{
-        display: none;
-    }
-
-    /* usu-card ends here */
-
-
-    /* student cards start from here */
-    .student-card .icon{
-        bottom: 16px;
-        right: 20px;  
-    } 
-
-    .student-card .desktop_int{
-        display: none;
-    }
-
-    /* student card ends here */
-
-
-
-    /* unilive-card starts from here */
-    .unilive-card .icon{
-        bottom: 16px;
-        right: 20px;  
-    } 
-
-    .unilive-card .desktop_uni{
-        display: none;
-    }
-
-    /* unilive-card ends here */
-
-    /* add stars from here */
-    .desk_img{
-        display: none;
-    }
-    /* add ends here */
-
-    /* video code starts from here */
-
-    .desk_video{
-        display: none;
-    }
-
-    /* video card ends here */
-
-    .desktop_volun{
-        display: none;
-    }
-    .volunteer-board .head-btn{
-
-        text-align: center;
-        width: 70%;
-        bottom: 26%;
-        left: 16%;
-    } 
-
-    .volunteer-board .vol_img{
-        min-width: 100%;
-    }
-
-    .volunteer-board .head-btn .header{
-        font-size: 28px; 
-        text-align: center;   
-    } 
-
-    .volunteer-board .bttn .buttn{
-        background-color: black;
-        padding: 10px 30px;
-        border: none;
-    } 
-
-    .desktop_member {
-        display: none;
-    }
-
-    .mobile_member .head-btn{
-        text-align: center;
-        bottom: 15%;
-        left: 15%;
-        width: 70%;
-    } 
-
-    .mobile_member .vol_img{
-        min-width: 100%;
-    }
-
-    .mobile_member .head-btn .header{
-        font-size: 34px;
-        text-align: center;  
-    } 
-
-    .mobile_member .bttn .buttn{
-        background-color: black;
-        padding: 10px 30px;
-        border: none;
-    }
-
-    #mobile_carousel .inside{
-        text-align: center;
-        width: 90%;
-        bottom: 35%;
-        left: 5%;
-    }
-
-    #mobile_carousel .inside .header{
-        font-size: 29px;
-        font-weight: bold;  
-    }
-
-    #mobile_carousel .inside .btn .buttn{       
-        background-color: #FFD700;
-        padding: 10px 20px;
-        border: none;
-        font-size: 18px;     
-    }
-
-    #mobile_carousel .desktop_usyd{
-        display: none;
-    }
-
-    #mobile_carousel .desktop_grad{
-        display: none;
-    }
-
-
-    .carousel-indicators li {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #ffffff;
-    }
-
-
-    #desktop_carousel .inside{
-        text-align: center;
-        width: 90%;
-        left: 7%;
-        bottom: 25%;   
-    }
-        
-    #desktop_carousel .inside .header{  
-        font-size: 40px;
-        font-weight: bold;       
-    }
-
-    #desktop_carousel .inside .btn .buttn{   
-        background-color: #FFD700;
-        padding: 10px 12px;
-        border: none;
-        font-size: 20px;
-        width: 206px;       
-    }
-        
-    #desktop_carousel .desktop_web{    
-        display: none;
-    }
-        
-    #desktop_carousel .desktop_members{    
-        display: none;
-    }
-
-    #desktop_carousel .desktop_home{
-        display: none;
-    }
-        
-        
-    .carousel-indicators li {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #ffffff;       
-    }
-
-
-    /* footer starts from here */
-
-    .footer{
-        background-color: black;
-    }
-     
-    .footer  a{
-        color: white;
-        text-decoration: none;
-    }
- 
-     
-    .footer .hr_white{
-        background-color: white;
-        width: 240px;
-        height: 1px;
-        margin-left: 10px;
-    }
- 
-     
-    .footer  h5{
-        color: white;
-    }
- 
-     
-    .footer .social-media{
-        color: white;
-    }
- 
-     .footer .social-media a{
-        text-decoration: none;
-    }
- 
- 
-    .footer .social-media i{
-        font-size: 34px;
-    }
-     
-    .footer .other_shortcuts{
-        color: white;
-    }
- 
-    /* footer ends here */
- 
+.desktop_volun{
+    display: none;
+}
+.volunteer-board .head-btn{
+    text-align: center;
+    width: 70%;
+    bottom: 26%;
+    left: 16%;
+} 
+.volunteer-board .vol_img{
+    min-width: 100%;
+}
+.volunteer-board .head-btn .header{
+    font-size: 28px; 
+    text-align: center;   
+} 
+.volunteer-board .bttn .buttn{
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+} 
+.desktop_member {
+    display: none;
+}
+.mobile_member .head-btn{
+    text-align: center;
+    bottom: 15%;
+    left: 15%;
+    width: 70%;
+} 
+.mobile_member .vol_img{
+    min-width: 100%;
+}
+.mobile_member .head-btn .header{
+    font-size: 34px;
+    text-align: center;  
+} 
+.mobile_member .bttn .buttn{
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+}
+#mobile_carousel .inside{
+    text-align: center;
+    width: 90%;
+    bottom: 35%;
+    left: 5%;
+}
+#mobile_carousel .inside .header{
+    font-size: 29px;
+    font-weight: bold;  
+}
+#mobile_carousel .inside .btn .buttn{       
+    background-color: #FFD700;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;     
+}
+#mobile_carousel .desktop_usyd{
+    display: none;
+}
+#mobile_carousel .desktop_grad{
+    display: none;
+}
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+#desktop_carousel .inside{
+    text-align: center;
+    width: 90%;
+    left: 7%;
+    bottom: 25%;   
+}      
+#desktop_carousel .inside .header{  
+    font-size: 40px;
+    font-weight: bold;       
+}
+#desktop_carousel .inside .btn .buttn{   
+    background-color: #FFD700;
+    padding: 10px 12px;
+    border: none;
+    font-size: 20px;
+    width: 206px;       
+}       
+#desktop_carousel .desktop_web{    
+    display: none;
+}       
+#desktop_carousel .desktop_members{    
+    display: none;
+}
+#desktop_carousel .desktop_home{
+    display: none;
+}       
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;       
+}
+/* footer starts from here */
+.footer{
+    background-color: black;
+}   
+.footer  a{
+    color: white;
+    text-decoration: none;
+}   
+.footer .hr_white{
+    background-color: white;
+    width: 240px;
+    height: 1px;
+    margin-left: 10px;
+}    
+.footer  h5{
+    color: white;
+}   
+.footer .social-media{
+    color: white;
+}
+.footer .social-media a{
+    text-decoration: none;
+}
+.footer .social-media i{
+    font-size: 34px;
+}    
+.footer .other_shortcuts{
+    color: white;
+}
+/* footer ends here */
 
 }
 /* mobile view ends here */
 
-
 /* ipad view  starts from here */
 @media (min-width: 768px) and (max-width: 1023px){
-    /* navbar code starts from here */
-    .nav_mobile{
-        display: none;
-    }
-
-    .nav_desktop {
-        background-color: #FFD700;  
-    }
-
-    .nav_desktop .icon{
-        background-color: #FFD700;
-        color: black;
-    }
-    
-    .nav_desktop #deskclose{
-        display: none;
-    }
-
-
-    .nav_desktop #basic-addon1{
-        background: #FFD700;
-        color: black;
-        font-size: 22px;
-        border: 2px white;
-    }
-
-    .nav_desktop .search-input{
-        background-color: #FFD700;
-        border: none;
-    }
-
-    .overlay {
-        height: 0%;
-        min-width: 100%;
-        position: absolute;
-        top: 76px;
-        left: 0;
-        background-color: black;
-        overflow-y:scroll;
-        transition: 0.5s;
-        z-index: 16;
-    }
-
-
-    .nav_desktop .logo{
-        width: 145px;
-    }
-
-    .nav_desktop .icon{
-        color:black; 
-        font-size:30px;
-    }
-
-    .myNav .search {
-        background-color: #FFD700;
-        color: black;
-    }
-
-    .myNav .option a{
-        text-decoration: none;
-        font-size: 16px;
-        color: #d3d3d3;
-    }
-
-    .myNav .container .desktop_col{
-        display: none;
-    }
-
-    .myNav  .hr_white{
-        background-color: white;
-        width: 175px;
-        height: 1px;
-        margin-left: 0px;
-    }
-
-    .myNav .social-media{
-        color: white;
-    }
-
-    
-    .myNav .social-media a{
-        text-decoration: none;
-        color: white;
-    }
-
-    .myNav .social-media i{
-        font-size: 20px;
-    }
-
-    /* navbar code ends here */
-
-    .card_image{
-        width: 100%;
-    }
-    
-    .card_title{
-        min-height: 135px;
-    }
-
-    .usu-card-web-icons .container .row .col-6 .mobile{ 
-        display: none;
-    }
-
-    .student-card .mobile_int{
-        display: none;
-    }
-
-    .student-card .icon{
-        bottom: 25px;
-        right: 20px;  
-    } 
-
-
-
-    /* * unilive-card starts from here */ 
-    .unilive-card .icon{
-        bottom: 25px;
-        right: 20px;   
-    } 
-
-    .unilive-card .mobile_uni{
-        display: none;
-    }
-
-    /* unilive-card ends here */
-
-    
-    .mob_img{
-        display: none;
-    }
-
-
-    .mob_video{
-        display: none;
-    }
-
-    
-    .mobile_volun{
-        display: none;
-    }
-
-    .volunteer-board .head-btn{
-        text-align: center;
-        width: 80%;
-        left: 10%;
-        bottom: 20%;
-    } 
-    
-    .volunteer-board .vol_img{
-        min-width: 100%;
-    }
-    
-    
-    
-    .volunteer-board .head-btn .header{
-        font-size: 34px;
-        text-align: center; 
-    } 
-    
-    .volunteer-board .bttn .buttn{
-        background-color: black;
-        padding: 10px 30px;
-        border: none;
-    } 
-
-    .mobile_member{
-        display: none;
-    }
-
-    .desktop_member .head-btn{
-        text-align: center;
-        bottom: 15%;
-        left: 15%;
-        width: 80%;
-    } 
-    
-    .desktop_member .vol_img{
-        min-width: 100%;
-    }
-    
-    
-    
-    .desktop_member .head-btn .header{ 
-        font-size: 34px;
-        text-align: center;    
-    } 
-    
-    .desktop_member .bttn .buttn{  
-        background-color: black;
-        padding: 10px 30px;
-        border: none; 
-    } 
-
-    #mobile_carousel .inside{
-        top: 40%;
-        left: 10%;
-        text-align: center;
-        width: 80%;       
-    }
-        
-    #mobile_carousel .inside .header{      
-        font-size: 45px;
-        font-weight: bold;        
-    }
-
-    #mobile_carousel .inside .btn .buttn{ 
-        background-color: #FFD700;
-        padding: 10px 20px;
-        border: none;
-        font-size: 18px;        
-    }
-       
-    #mobile_carousel .mobile_usyd{   
-        display: none;
-    }
-        
-    #mobile_carousel .mobile_grad{
-        display: none;
-    }
-        
-    #desktop_carousel .inside{
-        text-align: center;
-        width: 80%;
-        bottom: 25%;
-        left: 12%;
-    }
-        
-    #desktop_carousel .inside .header{ 
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    #desktop_carousel .inside .btn .buttn{ 
-        background-color: #FFD700;
-        padding: 10px 12px;
-        border: none;
-        font-size: 20px;
-        width: 206px;     
-    }
-        
-    #desktop_carousel .mobile_web{  
-        display: none;
-    }
-        
-    #desktop_carousel .mobile_members{    
-        display: none;
-    }
-
-    #desktop_carousel .desktop_web{    
-        min-width: 100%;    
-    }
-
-        
-    #desktop_carousel .mobile_appic{   
-        display: none;
-    }
-
-         
-    .carousel-indicators li {
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #ffffff;
-    }
-
-    /* footer starts from here */
-
-    .footer{
-        background-color: black;
-    }
-     
-    .footer  a{
-        color: white;
-        text-decoration: none;
-    }
- 
-     
-    .footer .hr_white{
-        background-color: white;
-        width: 240px;
-        height: 1px;
-        margin-left: 10px;
-    }
- 
-     
-    .footer  h5{
-        color: white;
-    }
- 
-     
-    .footer .social-media{
-        color: white;
-    }
- 
-     .footer .social-media a{
-        text-decoration: none;
-    }
- 
- 
-    .footer .social-media i{
-        font-size: 34px;
-    }
-     
-    .footer .other_shortcuts{
-        color: white;
-    }
- 
-    /* footer ends here */
+.nav_mobile{
+    display: none;
+}
+.nav_desktop {
+    background-color: #FFD700;  
+}
+.nav_desktop .icon{
+    background-color: #FFD700;
+    color: black;
+} 
+.nav_desktop #deskclose{
+    display: none;
+}
+.nav_desktop #basic-addon1{
+    background: #FFD700;
+    color: black;
+    font-size: 22px;
+    border: 2px white;
+}
+.nav_desktop .search-input{
+    background-color: #FFD700;
+    border: none;
+}
+.overlay {
+    height: 0%;
+    min-width: 100%;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    background-color: black;
+    overflow-y:scroll;
+    transition: 0.5s;
+    z-index: 16;
+}
+.nav_desktop .logo{
+    width: 145px;
+}
+.nav_desktop .icon{
+    color:black; 
+    font-size:30px;
+}
+.myNav .search {
+    background-color: #FFD700;
+    color: black;
+}
+.myNav .option a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #d3d3d3;
+}
+.myNav .container .desktop_col{
+    display: none;
+}
+.myNav  .hr_white{
+    background-color: white;
+    width: 175px;
+    height: 1px;
+    margin-left: 0px;
+}
+.myNav .social-media{
+    color: white;
+}  
+.myNav .social-media a{
+    text-decoration: none;
+    color: white;
+}
+.myNav .social-media i{
+    font-size: 20px;
+}
+/* navbar code ends here */
+.card_image{
+    width: 100%;
+} 
+.card_title{
+    min-height: 135px;
+}
+.usu-card-web-icons .container .row .col-6 .mobile{ 
+    display: none;
+}
+.student-card .mobile_int{
+    display: none;
+}
+.student-card .icon{
+    bottom: 25px;
+    right: 20px;  
+} 
+/*  unilive-card starts from here */ 
+.unilive-card .icon{
+    bottom: 25px;
+    right: 20px;   
+} 
+.unilive-card .mobile_uni{
+    display: none;
+}
+/* unilive-card ends here */  
+.mob_img{
+    display: none;
+}
+.mob_video{
+    display: none;
+} 
+.mobile_volun{
+    display: none;
+}
+.volunteer-board .head-btn{
+    text-align: center;
+    width: 80%;
+    left: 10%;
+    bottom: 20%;
+}   
+.volunteer-board .vol_img{
+    min-width: 100%;
+}  
+.volunteer-board .head-btn .header{
+    font-size: 34px;
+    text-align: center; 
+}  
+.volunteer-board .bttn .buttn{
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+} 
+.mobile_member{
+    display: none;
+}
+.desktop_member .head-btn{
+    text-align: center;
+    bottom: 15%;
+    left: 15%;
+    width: 80%;
+}   
+.desktop_member .vol_img{
+    min-width: 100%;
+}  
+.desktop_member .head-btn .header{ 
+    font-size: 34px;
+    text-align: center;    
+}   
+.desktop_member .bttn .buttn{  
+    background-color: black;
+    padding: 10px 30px;
+    border: none; 
+} 
+#mobile_carousel .inside{
+    top: 40%;
+    left: 10%;
+    text-align: center;
+    width: 80%;       
+}       
+#mobile_carousel .inside .header{      
+    font-size: 45px;
+    font-weight: bold;        
+}
+#mobile_carousel .inside .btn .buttn{ 
+    background-color: #FFD700;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;        
+}     
+#mobile_carousel .mobile_usyd{   
+    display: none;
+}
+#mobile_carousel .mobile_grad{
+    display: none;
+}       
+#desktop_carousel .inside{
+    text-align: center;
+    width: 80%;
+    bottom: 25%;
+    left: 12%;
+}      
+#desktop_carousel .inside .header{ 
+    font-size: 30px;
+    font-weight: bold;
+}
+#desktop_carousel .inside .btn .buttn{ 
+    background-color: #FFD700;
+    padding: 10px 12px;
+    border: none;
+    font-size: 20px;
+    width: 206px;     
+}        
+#desktop_carousel .mobile_web{  
+    display: none;
+}       
+#desktop_carousel .mobile_members{    
+    display: none;
+}
+#desktop_carousel .desktop_web{    
+    min-width: 100%;    
+}     
+#desktop_carousel .mobile_appic{   
+    display: none;
+}        
+.carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+/* footer starts from here */
+.footer{
+    background-color: black;
+}   
+.footer  a{
+    color: white;
+    text-decoration: none;
+}  
+.footer .hr_white{
+    background-color: white;
+    width: 240px;
+    height: 1px;
+    margin-left: 10px;
+}   
+.footer  h5{
+    color: white;
+}   
+.footer .social-media{
+    color: white;
+}
+.footer .social-media a{
+    text-decoration: none;
+}
+.footer .social-media i{
+    font-size: 34px;
+} 
+.footer .other_shortcuts{
+    color: white;
+}
+/* footer ends here */
     
 
 }
-
 /* ipad view ends here */
 
-
 /* desktop view starts from here */
-
 @media (min-width: 1024px) {
-
-    /* navbar code starts from here */
-    .nav_mobile{
-        display: none;
-    }
-
-    .nav_desktop {
-        background-color: #FFD700;  
-    }
-
-    .nav_desktop .icon{
-        background-color: #FFD700;
-        color: black;
-    }
+/* navbar code starts from here */
+.nav_mobile{
+    display: none;
+}
+.nav_desktop {
+    background-color: #FFD700;  
+}
+.nav_desktop .icon{
+    background-color: #FFD700;
+    color: black;
+}   
+.nav_desktop #deskclose{
+    display: none;
+}
+.nav_desktop #basic-addon1{
+     background: #FFD700;
+    color: black;
+    font-size: 22px;
+    border: 2px white;
+}
+.nav_desktop .search-input{
+    background-color: #FFD700;
+    border: none;
+}
+.overlay {
+    height: 0%;
+    min-width: 100%;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    background-color: black;
+    overflow-y:scroll;
+    transition: 0.5s;
+    z-index: 16;
+}
+.nav_desktop .logo{
+    width: 145px;
+}
+.nav_desktop .icon{
+    color:black; 
+    font-size:30px;
+}
+.myNav .search {
+    background-color: #FFD700;
+    color: black;
+}
+.myNav .option a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #d3d3d3;
+}
+.myNav .container .desktop_col{
+    display: none;
+}
+.myNav  .hr_white{
+    background-color: white;
+    width: 175px;
+    height: 1px;
+    margin-left: 0px;
+}
+.myNav .social-media{
+    color: white;
+} 
+.myNav .social-media a{
+    text-decoration: none;
+    color: white;
+}
+.myNav .social-media i{
+    font-size: 20px;
+}
+/* navbar code ends here */
+.card_image{
+    width: 100%;
+}   
+.card_title{
+    min-height: 170px;
+}
+.card_title h6{
+    min-height: 42px;
+}
+.card_title p{
+    min-height: 60px;
+}
+.usu-card-web-icons .container .row .col-6 .mobile{
+    display: none;
+}
+.student-card .mobile_int{
+    display: none;
+}
+.student-card .icon{
+    bottom: 25px;
+    right: 20px;  
+} 
+/* unilive-card starts from here */
+.unilive-card .icon{
+    bottom: 25px;
+    right: 20px;
     
-    .nav_desktop #deskclose{
-        display: none;
-    }
+} 
+.unilive-card .mobile_uni{
+    display: none;
+}
+/* unilive-card ends here */
+.mob_img{
+    display: none;
+}
+.desk_img {
+    min-width:100%;
+}
+.mob_video{
+    display: none;
+}
+.mobile_volun{
+    display: none;
+}
+.desktop_volun .vol_img{
+    min-width: 100% !important;
+    min-height: 100%;   
+}
+.volunteer-board .head-btn{
+    text-align: center;
+    width: 450px;
+    bottom: 132px;
+    left: 55px;
+}   
+.volunteer-board .head-btn .header{
+    font-size: 38px;
+    text-align: center;
+    min-width: 100%;  
+}  
+.volunteer-board .bttn .buttn{
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+} 
+.mobile_member{
+    display: none;
+}
+.desktop_member .vol_img{
+    min-width: 100%;
+    min-height: 100%;   
+}
+.desktop_member .head-btn{
+    text-align: center;
+    width: 400px;
+    bottom: 100px;
+    left: 75px;
+}        
+.desktop_member .head-btn .header{   
+    font-size: 38px;
+    text-align: center;
+    min-width: 100%;   
+} 
+.desktop_member .bttn .buttn{
+    background-color: black;
+    padding: 10px 30px;
+    border: none;
+    font-size: 20px;
+}   
+#mobile_carousel .inside{
+    left: 16%;
+    text-align: center;
+    width: 70%;
+    bottom: 38%;   
+}
+#mobile_carousel .inside .btn .buttn{
+    background-color: #FFD700;
+    padding: 10px 50px;
+    border: none;
+    font-size: 25px;      
+}
+#mobile_carousel img{
+    min-width: 100%;
+}       
+#mobile_carousel .inside .header{    
+    font-size: 70px;
+    font-weight: bold;      
+}
+#mobile_carousel .mobile_usyd{  
+    display: none;
+}
+#mobile_carousel .desktop_usyd{  
+    min-width: 100%;
+}       
+#mobile_carousel .mobile_grad{ 
+    display: none;
+}       
+.carousel-indicators li {  
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ffffff;        
+}
+#desktop_carousel img{
+    min-width: 100%;
+}   
+#desktop_carousel .inside{
+    left: 20%;
+    text-align: center;
+    width: 60%;
+    bottom: 35%;  
+}       
+#desktop_carousel .inside .header{   
+    font-size: 50px;
+    font-weight: bold;      
+}
+#desktop_carousel .inside .btn .buttn{
+    background-color: #FFD700;
+    padding: 10px 12px;
+    border: none;
+    font-size: 20px;
+    width: 206px;      
+}      
+#desktop_carousel .mobile_web{  
+    display: none;
+}      
+#desktop_carousel .mobile_members{     
+    display: none;
+}
+#desktop_carousel .mobile_appic{     
+    display: none;
+}
+/* footer starts from here */
+.footer{
+    background-color: black;
+}    
+.footer  a{
+    color: white;
+    text-decoration: none;
+}    
+.footer .hr_white{
+    background-color: white;
+    width: 240px;
+    height: 1px;
+    margin-left: 0px;
+}    
+.footer  h5{
+    color: white;
+}
+.footer .social-media{
+    color: white;
+}
+.footer .social-media a{
+    text-decoration: none;
+}
+.footer .social-media i{
+    font-size: 34px;
+}
+.footer .other_shortcuts{
+    color: white;
+}
+/* footer ends here */
 
 
-    .nav_desktop #basic-addon1{
-        background: #FFD700;
-        color: black;
-        font-size: 22px;
-        border: 2px white;
-    }
-
-    .nav_desktop .search-input{
-        background-color: #FFD700;
-        border: none;
-    }
-
-    .overlay {
-        height: 0%;
-        min-width: 100%;
-        position: absolute;
-        top: 76px;
-        left: 0;
-        background-color: black;
-        overflow-y:scroll;
-        transition: 0.5s;
-        z-index: 16;
-    }
-
-
-    .nav_desktop .logo{
-        width: 145px;
-    }
-
-    .nav_desktop .icon{
-        color:black; 
-        font-size:30px;
-    }
-
-    .myNav .search {
-        background-color: #FFD700;
-        color: black;
-    }
-
-    .myNav .option a{
-        text-decoration: none;
-        font-size: 16px;
-        color: #d3d3d3;
-    }
-
-    .myNav .container .desktop_col{
-        display: none;
-    }
-
-    .myNav  .hr_white{
-        background-color: white;
-        width: 175px;
-        height: 1px;
-        margin-left: 0px;
-    }
-
-    .myNav .social-media{
-        color: white;
-    }
-
-    
-    .myNav .social-media a{
-        text-decoration: none;
-        color: white;
-    }
-
-    .myNav .social-media i{
-        font-size: 20px;
-    }
-
-    /* navbar code ends here */
-
-    .card_image{
-        width: 100%;
-    }
-    
-    .card_title{
-        min-height: 170px;
-    }
-
-    .card_title h6{
-        min-height: 42px;
-    }
-
-    .card_title p{
-        min-height: 60px;
-    }
-
-    .usu-card-web-icons .container .row .col-6 .mobile{
-        display: none;
-    }
-
-    .student-card .mobile_int{
-        display: none;
-    }
-
-
-    .student-card .icon{
-        bottom: 25px;
-        right: 20px;  
-    } 
-
-    /* unilive-card starts from here */
-    .unilive-card .icon{
-        bottom: 25px;
-        right: 20px;
-    
-    } 
-
-   .unilive-card .mobile_uni{
-        display: none;
-    }
-
-     /* unilive-card ends here */
-
-     .mob_img{
-        display: none;
-    }
-
-    .desk_img {
-        min-width:100%;
-    }
-
-    .mob_video{
-        display: none;
-    }
-
-
-    .mobile_volun{
-        display: none;
-    }
-
-
-    .desktop_volun .vol_img{
-        min-width: 100% !important;
-        min-height: 100%;
-       
-    }
-
-
-    .volunteer-board .head-btn{
-        text-align: center;
-        width: 450px;
-        bottom: 132px;
-        left: 55px;
-    } 
-    
-    .volunteer-board .head-btn .header{
-        font-size: 38px;
-        text-align: center;
-        min-width: 100%;  
-    } 
-    
-    .volunteer-board .bttn .buttn{
-        background-color: black;
-        padding: 10px 30px;
-        border: none;
-        font-size: 20px;
-    } 
-
-
-    .mobile_member{
-        display: none;
-    }
-
-
-    .desktop_member .vol_img{
-        min-width: 100%;
-        min-height: 100%;   
-    }
- 
-     .desktop_member .head-btn{
-        text-align: center;
-        width: 400px;
-        bottom: 100px;
-        left: 75px;
-    } 
-         
-    .desktop_member .head-btn .header{   
-        font-size: 38px;
-        text-align: center;
-        min-width: 100%;   
-    } 
-     
-
-    .desktop_member .bttn .buttn{
-        background-color: black;
-        padding: 10px 30px;
-        border: none;
-        font-size: 20px;
-    } 
-    
-    #mobile_carousel .inside{
-        left: 16%;
-        text-align: center;
-        width: 70%;
-        bottom: 38%;   
-    }
-
-    #mobile_carousel .inside .btn .buttn{
-        background-color: #FFD700;
-        padding: 10px 50px;
-        border: none;
-        font-size: 25px;      
-    }
-
-    #mobile_carousel img{
-       min-width: 100%;
-    }
-    
-        
-    #mobile_carousel .inside .header{    
-        font-size: 70px;
-        font-weight: bold;      
-    }
-        
-    #mobile_carousel .mobile_usyd{  
-        display: none;
-    }
-
-    #mobile_carousel .desktop_usyd{  
-      min-width: 100%;
-    }
-        
-    #mobile_carousel .mobile_grad{ 
-        display: none;
-    }
-        
-        
-    .carousel-indicators li {  
-        width: 12px;
-        height: 12px;
-        border-radius: 50%;
-        background-color: #ffffff;        
-    }
-
-
-    #desktop_carousel img{
-        min-width: 100%;
-    }
-    
-    #desktop_carousel .inside{
-        left: 20%;
-        text-align: center;
-        width: 60%;
-        bottom: 35%;  
-    }
-        
-    #desktop_carousel .inside .header{   
-        font-size: 50px;
-        font-weight: bold;      
-    }
-
-    #desktop_carousel .inside .btn .buttn{
-        background-color: #FFD700;
-        padding: 10px 12px;
-        border: none;
-        font-size: 20px;
-        width: 206px;      
-    }
-        
-    #desktop_carousel .mobile_web{  
-        display: none;
-    }
-        
-    #desktop_carousel .mobile_members{     
-        display: none;
-    }
-
-    #desktop_carousel .mobile_appic{     
-        display: none;
-    }
-
-
-    /* footer starts from here */
-
-    .footer{
-        background-color: black;
-     }
-     
-     .footer  a{
-         color: white;
-         text-decoration: none;
-     }
- 
-     
-     .footer .hr_white{
-         background-color: white;
-         width: 240px;
-         height: 1px;
-         margin-left: 0px;
-     }
- 
-     
-     .footer  h5{
-         color: white;
-     }
- 
-     
-     .footer .social-media{
-         color: white;
-     }
- 
-     .footer .social-media a{
-         text-decoration: none;
-     }
- 
- 
-     .footer .social-media i{
-         font-size: 34px;
-     }
-     
-     .footer .other_shortcuts{
-         color: white;
-     }
- 
-     /* footer ends here */
- 
-        
 }
 
 /* desktop view ends here */
