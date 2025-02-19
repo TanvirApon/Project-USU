@@ -23,7 +23,7 @@ and **basic JavaScript** for interactive features like navbar appearance and sea
 ## 📥 Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/TanvirApon/USU
+   git clone https://github.com/TanvirApon/Project-USU
 
 ## Folder Structure:
 - index.html – The main HTML file.
