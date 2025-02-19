@@ -3,7 +3,7 @@
 Welcome to the **University of Sydney Union** website! This site is built using **HTML**, **CSS**, **Bootstrap 4**, a custom CSS file for styling, 
 and **basic JavaScript** for interactive features like navbar appearance and search bar functionality. It is optimized for both mobile and tablet views with the use of media queries.
 
-🌍 **Live Site:** [The Prospect Shop](https://tanvirapon.github.io/Project-USU/) 
+🌍 **Live Site:** [University of Sydney Union](https://tanvirapon.github.io/Project-USU/) 
 
 ## 🛠 Technologies Used
 - **HTML5** – Structuring the webpage.
